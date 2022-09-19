@@ -1,0 +1,122 @@
+INFO:     Started server process [73948]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+tfidf loaded from  model/tfdif_vectorizer.pkl
+tfidf_enriched loaded from  model/tfdif_vectorizer_enriched.pkl
+tfidf_block loaded from  model/tfidf_block.pkl
+KNN loaded from  model/knn.pkl
+Index KNN loaded from  model/knn_idx.pkl
+KNN loaded from  model/knn_enriched.pkl
+Index KNN loaded from  model/knn_idx_enriched.pkl
+KNN index loaded from  model/knn_block_idx.pkl
+KNN loaded from  model/knn_block.pkl
+tfidf loaded from  model/tfdif_vectorizer.pkl
+tfidf_enriched loaded from  model/tfdif_vectorizer_enriched.pkl
+tfidf_block loaded from  model/tfidf_block.pkl
+KNN loaded from  model/knn.pkl
+Index KNN loaded from  model/knn_idx.pkl
+KNN loaded from  model/knn_enriched.pkl
+Index KNN loaded from  model/knn_idx_enriched.pkl
+KNN index loaded from  model/knn_block_idx.pkl
+KNN loaded from  model/knn_block.pkl
+INFO:     10.201.49.187:52205 - "POST /search2 HTTP/1.1" 307 Temporary Redirect
+INFO:     10.201.49.187:52205 - "POST /search2/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 75, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 64, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 680, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 275, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 231, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/dupakq/main.py", line 378, in search2
+    q_cleansed = text_preprocessing(q)
+  File "/home/pusintek/dupakq/main.py", line 103, in text_preprocessing
+    prep01 = tokenize_clean(text)
+  File "/home/pusintek/dupakq/main.py", line 54, in tokenize_clean
+    tokens = [word.lower() for sent in nltk.sent_tokenize(text) for word
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/nltk/tokenize/__init__.py", line 107, in sent_tokenize
+    tokenizer = load("tokenizers/punkt/{0}.pickle".format(language))
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/nltk/data.py", line 750, in load
+    opened_resource = _open(resource_url)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/nltk/data.py", line 875, in _open
+    return find(path_, path + [""]).open()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/nltk/data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mpunkt[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt/PY3/english.pickle[0m
+
+  Searched in:
+    - '/root/nltk_data'
+    - '/home/pusintek/miniconda3/envs/py38/nltk_data'
+    - '/home/pusintek/miniconda3/envs/py38/share/nltk_data'
+    - '/home/pusintek/miniconda3/envs/py38/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - ''
+**********************************************************************
+
+INFO:     Started server process [74083]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+tfidf loaded from  model/tfdif_vectorizer.pkl
+tfidf_enriched loaded from  model/tfdif_vectorizer_enriched.pkl
+tfidf_block loaded from  model/tfidf_block.pkl
+KNN loaded from  model/knn.pkl
+Index KNN loaded from  model/knn_idx.pkl
+KNN loaded from  model/knn_enriched.pkl
+Index KNN loaded from  model/knn_idx_enriched.pkl
+KNN index loaded from  model/knn_block_idx.pkl
+KNN loaded from  model/knn_block.pkl
+tfidf loaded from  model/tfdif_vectorizer.pkl
+tfidf_enriched loaded from  model/tfdif_vectorizer_enriched.pkl
+tfidf_block loaded from  model/tfidf_block.pkl
+KNN loaded from  model/knn.pkl
+Index KNN loaded from  model/knn_idx.pkl
+KNN loaded from  model/knn_enriched.pkl
+Index KNN loaded from  model/knn_idx_enriched.pkl
+KNN index loaded from  model/knn_block_idx.pkl
+KNN loaded from  model/knn_block.pkl
+INFO:     10.201.49.187:53242 - "POST /search2 HTTP/1.1" 307 Temporary Redirect
+INFO:     10.201.49.187:53242 - "POST /search2/ HTTP/1.1" 200 OK
+INFO:     10.201.49.187:53242 - "POST /search2 HTTP/1.1" 307 Temporary Redirect
+INFO:     10.201.49.187:53242 - "POST /search2/ HTTP/1.1" 200 OK

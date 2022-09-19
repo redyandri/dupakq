@@ -1,0 +1,31 @@
+INFO:     Started server process [73696]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [188305]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [188948]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+[2022-09-19 14:29:59 +0700] [193426] [INFO] Starting gunicorn 20.1.0
+[2022-09-19 14:29:59 +0700] [193426] [INFO] Listening at: http://0.0.0.0:8000 (193426)
+[2022-09-19 14:29:59 +0700] [193426] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-09-19 14:29:59 +0700] [193428] [INFO] Booting worker with pid: 193428
+[2022-09-19 14:29:59 +0700] [193429] [INFO] Booting worker with pid: 193429
+[2022-09-19 14:29:59 +0700] [193433] [INFO] Booting worker with pid: 193433
+[2022-09-19 14:29:59 +0700] [193437] [INFO] Booting worker with pid: 193437
+[2022-09-19 14:30:00 +0700] [193429] [INFO] Started server process [193429]
+[2022-09-19 14:30:00 +0700] [193429] [INFO] Waiting for application startup.
+[2022-09-19 14:30:00 +0700] [193429] [INFO] Application startup complete.
+[2022-09-19 14:30:00 +0700] [193428] [INFO] Started server process [193428]
+[2022-09-19 14:30:00 +0700] [193428] [INFO] Waiting for application startup.
+[2022-09-19 14:30:00 +0700] [193428] [INFO] Application startup complete.
+[2022-09-19 14:30:01 +0700] [193433] [INFO] Started server process [193433]
+[2022-09-19 14:30:01 +0700] [193433] [INFO] Waiting for application startup.
+[2022-09-19 14:30:01 +0700] [193433] [INFO] Application startup complete.
+[2022-09-19 14:30:01 +0700] [193437] [INFO] Started server process [193437]
+[2022-09-19 14:30:01 +0700] [193437] [INFO] Waiting for application startup.
+[2022-09-19 14:30:01 +0700] [193437] [INFO] Application startup complete.

@@ -1,0 +1,264 @@
+Mahir_I.B.1
+"Melakukan pengumpulan informasi mengenai data instansi adalah melakukan identifikasi dan pendokumentasian informasi yang dihasilkan suatu instansi, maupun kebutuhan data yang diperlukan oleh instansi. Tahapan kegiatan ini mencakup namun tidak terbatas pada: mengumpulkan informasi yang dihasilkan suatu instansi atau mengumpulkan informasi yang dibutuhkan dari instansi terkait. Sumber data bisa merupakan data primer ataupun pengolahan data sekunder. Dokumen informasi
+dihasilkan suatu instansi mencakup namun tidak terbatas pada:
+1. jenis data;
+2. deskripsi data;
+3. unit penghasil data; dan
+4. periode pengumpulan data."
+
+Mahir_I.B.12
+Uji coba rancangan layanan akses data adalah kegiatan
+menelaah dan melakukan pengujian terhadap rancangan layanan akses data yang sudah dibuat untuk memastikan input-proses-output yang direncanakan sudah berjalan sesuai dengan yang diharapkan. Layanan akses data terdiri dari akses data secara manual dan elektronik. Layanan akses data secara manual dilakukan melalui SOP yang sudah ditentukan dimana pemohon data akan dibantu oleh operator untuk dapat mengakses data. Layanan akses data secara elektronik dilakukan melalui fasilitas akses data yang terdapat pada sistem/aplikasi.
+Tahapan kegiatan ini mencakup namun tidak terbatas pada:
+1. Mempelajari spesifikasi layanan akses data;
+2. Mempelajari prosedur uji coba, yakni langkah-langkah pengujian
+rancangan layanan akses data;
+3. Melakukan pengujian berdasarkan tahapan yang sudah
+direncanakan; dan
+4. Membuat laporan hasil pengujian.
+Satuan Hasil Angka Kredit Batasan Penilaian
+Pelaksana
+Bukti Fisik :
+Dokumen laporan uji coba yang mencakup namun tidak terbatas pada:
+1. deskripsi spesifikasi layanan akses data yang diuji;
+2. prosedur uji coba, yakni langkah-langkah pengujian rancangan
+layanan akses data;
+3. pelaksanaan pengujian; berisi waktu uji coba, dokumen/alat
+bantu/data set yang digunakan untuk melakukan pengujian, kendala yang dihadapi; dan
+: Laporan uji coba rancangan layanan akses data
+: 0,11
+: 8 (delapan) kali per tahun.
+Uji coba dilakukan terhadap hasil rancangan yang dikerjakan oleh pihak lain. Uji coba yang dilakukan terhadap rancangan sendiri dianggap sebagai kesatuan kegiatan penyusunan rancangan.
+: Pranata Komputer Mahir
+- 36 -
+4. hasil pengujian, menjelaskan hasil ujicoba dan keterangan lain yang diperlukan.
+
+Madya_I.A.2
+Melakukan reviu TI yang digunakan institusi saat ini atau tren TI terkini adalah melakukan kajian atau reviu secara sistematis dalam menganalisis dan mengevaluasi terkait implementasi atau
+: Dokumen hasil identifikasi dan analisis kebutuhan bisnis institusi
+: 4,16
+: Jumlah maksimum kegiatan identifikasi dan
+analisis kebutuhan bisnis institusi yang dapat
+dinilai adalah 2 (dua) kali per tahun. : Pranata Komputer Ahli Utama
+- 114 -
+penggunaan TI di lingkungan insititusi saat ini serta melakukan kajian tren teknologi (TI) terkini yang dapat mendukung dan meningkatkan kinerja layanan institusi. Kegiatan reviu ini bertujuan untuk lebih memahami penggunaan TI saat ini, mengidentifikasi kekurangan, potensi masalah, isu, outcome, dan peluang berdasarkan pada praktik terbaik (best practice) sebagai referensi. Kegiatan reviu ini digunakan sebagai dasar utama dalam memberikan masukan dan arahan terhadap TI yang digunakan institusi saat ini.
+Tahapan melakukan kegiatan reviu TI yang digunakan institusi saat ini ini mencakup namun tidak terbatas pada:
+1. Melakukan identifikasi dan reviu strategi dan tujuan TI
+organisasi serta memastikan bahwa pengembangan TI sejalan
+dengan strategi, tujuan dan kebutuhan bisnis organisasi;
+2. Melakukan analisis sistem TI yang sedang berjalan saat ini;
+3. Melakukan identifikasi dan analisis kesenjangan TI; dan
+4. Melakukan kajian kebutuhan TI yang selaras dengan kebutuhan
+institusi; dan
+5. Melakukan dokumentasi kegiatan reviu TI.
+Sementara itu, tahapan kegiatan reviu tren teknologi (TI) terkini
+mencakup namun tidak terbatas pada:
+1. Melakukan kegiatan identifikasi dan kajian pendekatan
+teknologi terkini;
+2. Melakukan kajian penerapan/inisiatif saat ini;
+3. Mengajukan opsi tren teknologi dan usul pemanfaatannya yang
+sesuai dengan kebutuhan TI dan bisnis institusi yang mampu
+mendukung dan meningkatkan kinerja institusi;
+4. Mengkaji implikasi implementasi tren teknologi tersebut; dan
+5. Melakukan dokumentasi kegiatan reviu trend TI terkini.
+SatuanHasil :
+Angka Kredit : Batasan Penilaian :
+Dokumen hasil reviu TI yang digunakan institusi saat ini atau tren TI terkini
+0,78
+Kegiatan ini dapat dilakukan untuk setiap sistem TI yang digunakan institusi saat ini atau untuk setiap trend teknologi secara spesifik. Jumlah maksimum kegiatan reviu TI yang digunakan institusi saat ini atau tren TI terkini yang dapat dinilai adalah 1 (satu) kali per
+bulan.
+Pelaksana : Pranata Komputer Ahli Madya
+Bukti Fisik :
+Dokumen hasil reviu TI yang digunakan institusi saat ini yang mencakup namun tidak terbatas pada:
+1. Hasil identifikasi strategi dan tujuan TI;
+2. Hasil analisis sistem TI;
+3. Hasil kesenjangan sistem TI yang digunakan; dan
+4. Hasil kajian kebutuhan TI yang selaras dengan kebutuhan
+bisnis.
+Dokumen hasil kajian tren TI terkini yang mencakup namun tidak terbatas pada:
+1. Deskripsi tren teknologi (TI) terkini yang dikaji;
+2. Hasil identifikasi dan kajian pendekatan tren teknologi;
+3. Hasil kajian penerapan/inisiatif tren teknologi saat ini;
+4. Opsi tren teknologi terkini yang dapat diterapkan; dan
+5. Implikasi implementasi tren teknologi terkini tersebut.
+
+
+
+Madya_I.A.6
+Melakukan pengkajian terhadap kerangka kerja untuk penyusunan strategi TI adalah melakukan kegiatan pengkajian secara sistematis dalam menganalisis dan mengevaluasi kerangka kerja (framework) untuk penyusunan dan/atau pengembangan strategi TI. Kegiatan pengkajian ini bertujuan untuk lebih memahami kerangka kerja penyusunan strategi TI saat ini, mengidentifikasi kekurangan, potensi masalah dan isu, berdasarkan pada praktik terbaik (best practice) sebagai referensi. Kegiatan pengkajian ini digunakan sebagai dasar utama dalam memberikan masukan dan arahan dalam menggunakan kerangka kerja yang sesuai dengan kebutuhan insititusi. Dalam praktiknya, pengkajian terhadap kerangka kerja untuk penyusunan strategi TI dapat mencakup untuk berbagai area TI, seperti tata kelola dan manajemen TI, pengembangan sistem TI, Enterprise Architecture, operasional sistem TI, keamanan dan risiko TI, monitoring dan evaluasi sistem TI, dan area terkait TI lainnya.
+Tahapan kegiatan ini adalah melakukan kajian dan evaluasi konteks kerangka kerja penyusunan strategi TI, yang mencakup namun tidak terbatas pada:
+1. Melakukan pengkajian terhadap kelengkapan komponen-
+komponen strategi TI dan interaksinya;
+2. Melakukan pengkajian terhadap tahap dan kegiatan untuk
+menyusun dan/atau mengembangkan strategi TI;
+3. Melakukan pengkajian langkah-langkah dan upaya untuk
+menyusun, mengembangkan dan/atau memelihara strategi TI;
+4. Melakukan pengkajian mekanisme penentuan prioritas TI;
+5. Melakukan pengkajian mekanisme penentuan rencana program
+TI (roadmap) dan proyeksi rencana pembiayaan TI;
+6. Melakukan evaluasi pelaksanaan atau penggunaan kerangka
+kerja;
+7. Mengidentifikasi kekurangan atau kelemahan kerangka kerja;
+8. Melakukan analisa gap kapabilitas proses dan area perbaikan;
+9. Mengidentifikasi potensi masalah dan isu terkait kerangka kerja;
+10. Menentukan rekomendasi dan prioritas perbaikan; dan
+11. Mendokumentasikan kegiatan pengkajian terhadap kerangka
+kerja untuk penyusunan strategi TI.
+Pelaksana
+Bukti Fisik :
+Dokumen pengkajian kerangka kerja untuk penyusunan strategi TI yang mencakup namun tidak terbatas pada:
+1. Hasil kajian dan evaluasi konteks kerangka kerja penyusunan
+strategi TI (komponen-komponen strategi TI, tahapan kegiatan,
+langkah-langkah setiap tahapan, prioritasi, dst);
+2. Hasil evaluasi pelaksanaan atau penggunaan kerangka kerja;
+3. Hasil identifikasi dan kajian kekurangan atau kelemahan
+kerangka kerja;
+4. Hasil kajian potensi masalah dan isu terkait kerangka kerja; dan
+5. Rekomendasi dan prioritas perbaikan.
+
+
+
+Madya_I.A.7
+Melakukan analisis kesenjangan terhadap strategi TI adalah melakukan kegiatan analisis kinerja strategi TI yang melibatkan perbandingan kinerja aktual dengan kinerja potensial atau yang diinginkan. Analisis kesenjangan melibatkan, menentukan, mendokumentasikan, dan meningkatkan perbedaan antara potensi dan kemampuan saat ini. Analisis kesenjangan digunakan untuk menentukan langkah-langkah apa yang perlu diambil untuk berpindah dari kondisi saat ini ke kondisi yang diinginkan atau keadaan masa depan yang diinginkan. Dalam kegiatan ini, perlu dipertimbangkan mengenai keselarasan antara strategi bisnis dan strategi TI institusi, dan memastikan bahwa penggunaan TI dapat mendukung dan berdampak baik terhadap strategi bisnis insitusi, serta meningkatkan kinerja institusi. Dalam praktiknya, analisis kesenjangan terhadap strategi TI dapat mencakup untuk berbagai area TI, seperti tata kelola dan manajemen TI, pengembangan sistem TI, Enterprise Architecture, operasional sistem TI, keamanan dan risiko TI, monitoring dan evaluasi sistem TI, dan area terkait TI lainnya. Tahapan kegiatan ini mencakup namun tidak terbatas pada:
+1. Mengidentifikasi fokus area strategi TI yang akan dianalisis;
+2. Mengidentifikasi target yang diinginkan (future state/ target);
+3. Melakukan penilaian (assessment) terhadap kondisi saat ini
+(current state);
+4. Menentukan formula indikator dan skala pengukuran;
+5. Mengidentifikasi kesenjangan berdasarkan hasil pengukuran
+atau evaluasi;
+6. Mengidentifikasi kekurangan atau kelemahan strategi TI;
+7. Menganalisa kesenjangan (gap) kapabilitas proses dan area
+perbaikan;
+8. Mengidentifikasi potensi masalah dan isu terkait strategi TI;
+9. Menentukan rekomendasi dan/atau rencana tindakan (action
+plan) untuk menutup atau memperbaiki kesenjangan tersebut untuk jangka pendek/quick wins, jangka menengah dan jangka panjang; dan
+10. Mendokumentasikan kegiatan analisis kesenjangan terhadap strategi TI.
+Satuan Hasil :
+Angka Kredit : Batasan Penilaian :
+Dokumen hasil analisis kesenjangan terhadap strategi TI
+1,320
+Jumlah maksimum kegiatan analisis kesenjangan terhadap strategi TI yang dapat dinilai adalah 1 (satu) kali per tahun
+- 124 -
+Pelaksana : Pranata Komputer Ahli Madya
+Bukti Fisik :
+Dokumen hasil analisis kesenjangan terhadap strategi TI yang mencakup namun tidak terbatas pada:
+1. Hasil identifikasi fokus area strategi TI yang akan dianalisis;
+2. Hasil identifikasi target yang diinginkan (future state/ target);
+3. Hasil penilaian (assessment) terhadap kondisi saat ini (current
+state);
+4. Indikator dan skala pengukuran;
+5. Hasil identifikasi kesenjangan berdasarkan hasil pengukuran
+atau evaluasi;
+6. Hasil identifikasi kekurangan atau kelemahan strategi TI;
+7. Hasil analisis kesenjangan (gap) kapabilitas proses dan area
+perbaikan;
+8. Hasil identifikasi potensi masalah dan isu terkait strategi TI; dan
+9. Rekomendasi dan/atau rencana tindakan (action plan).
+
+
+
+Madya_I.D.1
+Melakukan studi kelayakan audit TI adalah kegiatan meninjau dan menilai apakah audit TI layak untuk diselenggarakan di suatu institusi. Pelaku studi kelayakan mengidentifikasi area dan obyek TI dari institusi secara umum yang berpotensi untuk diaudit. Selain itu, dilakukan peninjauan kemungkinan pelaksanaan dari berbagai perspektif, baik teknis maupun non teknis dalam domain TI dan bisnis. Dengan demikian dapat diperoleh kesimpulan apakah kegiatan audit TI untuk area dan obyek TI tersebut layak atau tidak layak untuk diimplementasikan di institusi. Kegiatan melakukan studi kelayakan audit TI berlaku untuk per area TI.
+Kegiatan melakukan studi kelayakan audit TI wajib disertai dengan kegiatan melakukan analisis kelayakan audit TI dari berbagai perspektif di antaranya:
+a. Analisis kelayakan ekonomi, untuk mendapatkan justifikasi
+biaya-manfaat;
+b. Analisis kelayakan teknis, dengan meninjau penerapan teknis
+secara praktis dari kegiatan audit TI yang diusulkan;
+c. Analisis kelayakan operasional, dengan menguji seberapa efektif kegiatan audit TI yang diusulkan untuk diterapkan dan
+memberikan peluang kepada pelaksana;
+d. Analisis kelayakan hukum dan kontraktual (non teknis), dengan
+meninjau kewajiban-kewajiban hukum atau kontraktual yang
+berkaitan dengan kegiatan audit TI yang diusulkan; dan
+e. Analisis kelayakan budaya organisasi, dengan mengevaluasi bagaimana internal instansi dapat menerima kegiatan audit TI
+untuk diterapkan.
+Cakupan area TI meliputi namun tidak terbatas pada:
+keamanan informasi, manajemen layanan, manajemen konfigurasi, operasional sistem. Cakupan obyek TI: perangkat keras, piranti lunak, sarana komunikasi, serta fasilitas apapun yang dapat digunakan untuk menginput, menyimpan, mengirimkan, memproses, dan menghasilkan data dalam berbagai bentuk.
+Tahapan kegiatan studi kelayakan audit TI mencakup namun tidak terbatas pada:
+1. Mengidentifikasi area TI dan obyek TI yang akan diaudit;
+2. Melakukan analisis kelayakan audit TI dari berbagai perspektif;
+dan
+3. Mengusulkan rekomendasi hasil analisis kelayakan audit TI.
+Satuan Hasil : Angka Kredit : Batasan Penilaian :
+Laporan hasil studi kelayakan audit TI
+0,825
+Maksimum kegiatan studi kelayakan audit TI yang dapat dinilai adalah 2 (dua) kali per tahun. Laporan minimal sebanyak 20 halaman, ukuran
+- 265 -
+kertas A4, dengan 1,5 spasi paragraf. Nilai angka kredit maksimal akan diberikan jika minimal ada 3 obyek yang dicakup dalam 1 area TI. Jika hanya ada 1 obyek, maka akan diberikan nilai angka kredit sepertiganya
+Pelaksana
+Bukti Fisik :
+Dokumentasi berupa laporan studi kelayakan audit TI dengan rincian sebagai berikut:
+1. Hasil identifikasi elemen dari instansi yang berpotensi menjadi
+obyek audit TI.
+2. Hasil peninjauan kelayakan pelaksanaan audit TI secara teknis
+dan non teknis dalam domain TI dan bisnis berdasarkan perspektif:
+a. analisis kelayakan ekonomi;
+b. analisis kelayakan teknis;
+c. analisis kelayakan operasional;
+d. analisis kelayakan hukum dan kontraktual (non teknis);
+dan
+e. analisis kelayakan budaya organisasi.
+3. Kesimpulan dan rekomendasi hasil analisis kelayakan audit TI di instansi.
+
+
+
+
+
+Madya_I.D.4
+Melakukan pengkajian terhadap framework audit TI adalah kegiatan meninjau serta menilai kelebihan dan kekurangan dari suatu atau beberapa framework yang menjadi panduan standar implementasi audit TI. Kegiatan pengkajian ini juga meliputi penilaian (mencakup kelebihan dan kekurangan) terhadap framework yang dikaji. Kegiatan pengkajian ini juga harus mempertimbangkan kesesuaian dari framework yang akan direkomendasikan terhadap kebutuhan dan karakteristik dari institusi. Framework terkait audit TI yang menjadi obyek kajian dapat diadopsi dari standar nasional, internasional atau praktik
+terbaik.
+Tahapan dalam kegiatan pengkajian terhadap framework audit
+TI mencakup namun tidak terbatas pada:
+1. Membuat daftar alternatif framework audit TI;
+2. Menyiapkan lembar kerja pengkajian kriteria framework audit
+TI;
+3. Meninjau setiap alternatif framework audit TI berdasarkan
+kriterianya dan mengisikannya ke dalam lembar kerja;
+4. Melakukan penilaian terhadap setiap alternatif framework audit
+TI; dan
+5. Mengusulkan rekomendasi framework audit TI yang cocok untuk
+diterapkan di area dan obyek TI dari institusi.
+- 270 -
+Dokumentasi/laporan hasil kajian yang mencakup namun tidak terbatas pada:
+1. Daftar alternatif framework audit TI;
+2. Lembar kerja pengkajian kriteria framework audit TI yang berisi:
+3. Hasil peninjauan setiap alternatif framework audit TI
+berdasarkan kriterianya;
+4. Hasil penilaian terhadap setiap alternatif framework audit TI;
+dan
+5. Rekomendasi framework audit TI yang cocok untuk diterapkan
+di area dan obyek TI dari instusi.
+
+
+
+
+
+Madya_I.D.9
+Melakukan analisis data audit TI adalah melakukan analisis
+dan identifikasi data hasil audit TI untuk melihat kesesuaian pelaksanaan TI pada suatu unit kerja/bagian dengan petunjuk/praktik terbaik/peraturan yang berlaku.
+Tahapan kegiatan melakukan analisis data audit TI mencakup namun tidak terbatas pada:
+1. Identifikasi area dan obyek TI yang diaudit;
+2. Identifikasi petunjuk/praktik terbaik/peraturan yang berlaku
+sesuai dengan kegiatan TI yang dilakukan;
+3. Melakukan analisis dan identifikasi data hasil audit TI untuk
+dapat menentukan tingkat kepatuhan atau
+pelanggaran/kesalahan; dan
+4. Memberikan rekomendasi (tindak lanjut) berdasarkan hasil
+analisis tersebut.
+Satuan Hasil : Dokumen hasil analisis data audit TI
+Angka Kredit : 0,990
+Batasan Penilaian : Jumlah maksimum melakukan analisis data
+audit TI adalah 2 (dua) kali per tahun
+- 277 -
+Pelaksana : Pranata Komputer Ahli Madya
+Bukti Fisik :
+Dokumen hasil analisis data audit TI yang mencakup namun tidak terbatas pada:
+1. Hasil identifikasi area dan obyek TI yang diaudit;
+2. Hasil identifikasi petunjuk/praktik terbaik/peraturan yang
+berlaku;
+3. Hasil analisis dan identifikasi data audit;
+4. Hasil penentuan tingkat kepatuhan atau
+pelanggaran/kesalahan; dan
+5. Daftar rekomendasi berdasarkan hasil analisis.
+Catatan: Jika data audit dan hasil analisis audit bersifat rahasia, bukti fisik dapat digantikan oleh dokumen yang menunjukkan bahwa telah dilakukan audit, misal: Cover dan bagian pengesahan dari Laporan hasil audit.
+
