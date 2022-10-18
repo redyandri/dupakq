@@ -260,8 +260,6 @@ def ge_activity_code(txt):
     else:
         return []
 
-EMPTY_STR="empty"
-
 app = FastAPI()
 origins = ["*"]
 
@@ -294,9 +292,6 @@ async def search(request: Request):
         skipped_idx_queue = queue.Queue()
         skipped_distance_queue= queue.Queue()
         q_cleansed = text_preprocessing(q)
-        if not q_cleansed.strip():
-            q_cleansed=EMPTY_STR
-        # print("===============================q_cleansed:{}============================".format(q_cleansed))
         q_vector = vectorize_tfidf(q_cleansed)
         (v_distances, v_indices) = knn.kneighbors([q_vector], n_neighbors=5)
         v_indices = v_indices.tolist()
@@ -412,13 +407,7 @@ async def search2(request: Request):
                     tmp["credit"] = 0.0
                 result[str(a)]=tmp
         else:
-            try:
-                q_cleansed = text_preprocessing(q)
-            except:
-                q_cleansed = EMPTY_STR
-
-            if not q_cleansed:
-                q_cleansed = EMPTY_STR
+            q_cleansed = text_preprocessing(q)
             q_vector = vectorize_tfidf(q_cleansed)
             (v_distances, v_indices) = knn.kneighbors([q_vector], n_neighbors=5)
             v_indices = v_indices.tolist()
