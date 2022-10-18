@@ -12,6 +12,7 @@ export default function Table({ columns, data }) {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   const handleDownloadClick= async (idx)=>{
     let arr=idx.split("_")
@@ -96,6 +97,8 @@ export default function Table({ columns, data }) {
     []
   );
 
+=======
+>>>>>>> parent of 55fba2e... fix empty respond for non existent dataset
 =======
 >>>>>>> parent of 55fba2e... fix empty respond for non existent dataset
     // Use the useTable Hook to send the columns and data to build the table
