@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>DataViz</title>
+        <style type="text/css">
+            #viz {
+                width: 900px;
+                height: 700px;
+            }
+        </style>
+        <script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
+    </head>   
+    <script>
+        function draw() {
+            var config = {
+                container_id: "viz",
+                server_url: "bolt://10.242.184.93:7687",
+                server_user: "neo4j",
+                server_password: "test",
+                labels: {
+                    NODE: {
+                    label: "sistem informasi",
+                    },
+                },
+                relationships: {
+                    MELAKUKAN: {
+                    idx: 259,
+                    score: 0.11,
+                    },
+                },
+                initial_cypher:
+                "match p=(m:NODE)-[]-() where m.label='sistem informasi' return p",
+            }
+
+            var viz = new NeoVis(config);
+            viz.render();
+        }
+    </script>
+    <body onload="draw()">
+        <div id="viz"></div>
+    </body>
+</html>
