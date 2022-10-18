@@ -20,7 +20,7 @@ export default function Table({ data,ref0 }) {
     let kode=arr[2]
     console.log("gonna download:",idk);
 
-     await fetch('http://127.0.0.1:8000/download/', {
+     await fetch('http://10.242184.93:443/download/', {
       mode:"cors",
       method: 'POST',
       headers: {

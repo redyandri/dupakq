@@ -47,7 +47,7 @@ const empty_result={
 
   let queryDupak= async (e)=>{
     console.log("gonna post:",ref0.current.value);
-     await fetch('http://127.0.0.1:8000/search2/', {
+     await fetch('http://10.242.184.93:443/search2/', {
       mode:"cors",
       method: 'POST',
       headers: {

@@ -1,1 +1,47 @@
 INFO: Accepting connections at http://localhost:80.
+INFO: Accepting connections at http://localhost:80.
+[2022-10-18 17:49:46 +0700] [1368043] [INFO] Starting gunicorn 20.1.0
+[2022-10-18 17:49:46 +0700] [1368043] [INFO] Listening at: http://10.242.184.93:8000 (1368043)
+[2022-10-18 17:49:46 +0700] [1368043] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-10-18 17:49:46 +0700] [1368045] [INFO] Booting worker with pid: 1368045
+[2022-10-18 17:49:46 +0700] [1368045] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/workers.py", line 66, in init_process
+    super(UvicornWorker, self).init_process()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'main'
+[2022-10-18 17:49:47 +0700] [1368045] [INFO] Worker exiting (pid: 1368045)
+[2022-10-18 17:49:47 +0700] [1368043] [INFO] Shutting down: Master
+[2022-10-18 17:49:47 +0700] [1368043] [INFO] Reason: Worker failed to boot.
+INFO: Accepting connections at http://localhost:80.
+INFO: Accepting connections at http://localhost:80.
+[2022-10-18 18:28:38 +0700] [1369331] [INFO] Starting gunicorn 20.1.0
+[2022-10-18 18:28:38 +0700] [1369331] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-10-18 18:28:38 +0700] [1369331] [ERROR] Retrying in 1 second.
+[2022-10-18 18:28:39 +0700] [1369331] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-10-18 18:28:39 +0700] [1369331] [ERROR] Retrying in 1 second.
+[2022-10-18 18:28:40 +0700] [1369331] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-10-18 18:28:40 +0700] [1369331] [ERROR] Retrying in 1 second.
+[2022-10-18 18:28:41 +0700] [1369331] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-10-18 18:28:41 +0700] [1369331] [ERROR] Retrying in 1 second.
+[2022-10-18 18:28:42 +0700] [1369331] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-10-18 18:28:42 +0700] [1369331] [ERROR] Retrying in 1 second.
+[2022-10-18 18:28:43 +0700] [1369331] [ERROR] Can't connect to ('10.242.184.93', 443)
