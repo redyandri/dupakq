@@ -1,18 +1,17 @@
 import React from "react";
 import { useTable, useSortBy } from 'react-table';
 import { Navigate } from 'react-router';
-import { Link } from '@mui/material';
-import { useMemo } from "react";
 
 
 
 
-export default function Table({ data,ref0 }) {
+export default function Table({ columns, data }) {
     
   const defaultColumn = {
     width: "auto",
   }
 
+<<<<<<< HEAD
 
   const handleDownloadClick= async (idx)=>{
     let arr=idx.split("_")
@@ -97,6 +96,8 @@ export default function Table({ data,ref0 }) {
     []
   );
 
+=======
+>>>>>>> parent of 55fba2e... fix empty respond for non existent dataset
     // Use the useTable Hook to send the columns and data to build the table
     const {
       getTableProps, // table props from react-table

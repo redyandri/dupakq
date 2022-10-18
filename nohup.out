@@ -29,3 +29,60 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 [2022-09-19 14:30:01 +0700] [193437] [INFO] Started server process [193437]
 [2022-09-19 14:30:01 +0700] [193437] [INFO] Waiting for application startup.
 [2022-09-19 14:30:01 +0700] [193437] [INFO] Application startup complete.
+[2022-10-18 17:50:38 +0700] [1368076] [INFO] Starting gunicorn 20.1.0
+[2022-10-18 17:50:38 +0700] [1368076] [INFO] Listening at: http://10.242.184.93:8000 (1368076)
+[2022-10-18 17:50:38 +0700] [1368076] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-10-18 17:50:38 +0700] [1368078] [INFO] Booting worker with pid: 1368078
+[2022-10-18 17:50:38 +0700] [1368079] [INFO] Booting worker with pid: 1368079
+[2022-10-18 17:50:38 +0700] [1368080] [INFO] Booting worker with pid: 1368080
+[2022-10-18 17:50:38 +0700] [1368081] [INFO] Booting worker with pid: 1368081
+[2022-10-18 17:50:42 +0700] [1368079] [INFO] Started server process [1368079]
+[2022-10-18 17:50:42 +0700] [1368081] [INFO] Started server process [1368081]
+[2022-10-18 17:50:42 +0700] [1368078] [INFO] Started server process [1368078]
+[2022-10-18 17:50:42 +0700] [1368079] [INFO] Waiting for application startup.
+[2022-10-18 17:50:42 +0700] [1368081] [INFO] Waiting for application startup.
+[2022-10-18 17:50:42 +0700] [1368078] [INFO] Waiting for application startup.
+[2022-10-18 17:50:42 +0700] [1368080] [INFO] Started server process [1368080]
+[2022-10-18 17:50:42 +0700] [1368080] [INFO] Waiting for application startup.
+[2022-10-18 17:50:42 +0700] [1368079] [INFO] Application startup complete.
+[2022-10-18 17:50:42 +0700] [1368081] [INFO] Application startup complete.
+[2022-10-18 17:50:42 +0700] [1368078] [INFO] Application startup complete.
+[2022-10-18 17:50:42 +0700] [1368080] [INFO] Application startup complete.
+[2022-10-18 18:22:01 +0700] [1369001] [INFO] Starting gunicorn 20.1.0
+[2022-10-18 18:22:01 +0700] [1369001] [INFO] Listening at: http://10.242.184.93:8000 (1369001)
+[2022-10-18 18:22:01 +0700] [1369001] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-10-18 18:22:01 +0700] [1369003] [INFO] Booting worker with pid: 1369003
+[2022-10-18 18:22:01 +0700] [1369004] [INFO] Booting worker with pid: 1369004
+[2022-10-18 18:22:01 +0700] [1369005] [INFO] Booting worker with pid: 1369005
+[2022-10-18 18:22:01 +0700] [1369009] [INFO] Booting worker with pid: 1369009
+[2022-10-18 18:22:03 +0700] [1369004] [INFO] Started server process [1369004]
+[2022-10-18 18:22:03 +0700] [1369004] [INFO] Waiting for application startup.
+[2022-10-18 18:22:03 +0700] [1369004] [INFO] Application startup complete.
+[2022-10-18 18:22:03 +0700] [1369005] [INFO] Started server process [1369005]
+[2022-10-18 18:22:03 +0700] [1369005] [INFO] Waiting for application startup.
+[2022-10-18 18:22:03 +0700] [1369005] [INFO] Application startup complete.
+[2022-10-18 18:22:03 +0700] [1369003] [INFO] Started server process [1369003]
+[2022-10-18 18:22:03 +0700] [1369003] [INFO] Waiting for application startup.
+[2022-10-18 18:22:03 +0700] [1369003] [INFO] Application startup complete.
+[2022-10-18 18:22:03 +0700] [1369009] [INFO] Started server process [1369009]
+[2022-10-18 18:22:03 +0700] [1369009] [INFO] Waiting for application startup.
+[2022-10-18 18:22:03 +0700] [1369009] [INFO] Application startup complete.
+[2022-10-18 18:24:19 +0700] [1369080] [INFO] Starting gunicorn 20.1.0
+[2022-10-18 18:24:19 +0700] [1369080] [INFO] Listening at: http://10.242.184.93:443 (1369080)
+[2022-10-18 18:24:19 +0700] [1369080] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-10-18 18:24:19 +0700] [1369082] [INFO] Booting worker with pid: 1369082
+[2022-10-18 18:24:19 +0700] [1369083] [INFO] Booting worker with pid: 1369083
+[2022-10-18 18:24:19 +0700] [1369087] [INFO] Booting worker with pid: 1369087
+[2022-10-18 18:24:19 +0700] [1369091] [INFO] Booting worker with pid: 1369091
+[2022-10-18 18:24:20 +0700] [1369082] [INFO] Started server process [1369082]
+[2022-10-18 18:24:20 +0700] [1369082] [INFO] Waiting for application startup.
+[2022-10-18 18:24:20 +0700] [1369082] [INFO] Application startup complete.
+[2022-10-18 18:24:20 +0700] [1369083] [INFO] Started server process [1369083]
+[2022-10-18 18:24:20 +0700] [1369083] [INFO] Waiting for application startup.
+[2022-10-18 18:24:20 +0700] [1369083] [INFO] Application startup complete.
+[2022-10-18 18:24:20 +0700] [1369091] [INFO] Started server process [1369091]
+[2022-10-18 18:24:20 +0700] [1369091] [INFO] Waiting for application startup.
+[2022-10-18 18:24:20 +0700] [1369091] [INFO] Application startup complete.
+[2022-10-18 18:24:21 +0700] [1369087] [INFO] Started server process [1369087]
+[2022-10-18 18:24:21 +0700] [1369087] [INFO] Waiting for application startup.
+[2022-10-18 18:24:21 +0700] [1369087] [INFO] Application startup complete.
