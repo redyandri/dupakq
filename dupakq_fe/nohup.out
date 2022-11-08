@@ -45,3 +45,64 @@ INFO: Accepting connections at http://localhost:80.
 [2022-10-18 18:28:42 +0700] [1369331] [ERROR] Connection in use: ('10.242.184.93', 443)
 [2022-10-18 18:28:42 +0700] [1369331] [ERROR] Retrying in 1 second.
 [2022-10-18 18:28:43 +0700] [1369331] [ERROR] Can't connect to ('10.242.184.93', 443)
+file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/node-v16.17.0-linux-x64/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+
+INFO: Gracefully shutting down. Please wait...
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+
+INFO: Gracefully shutting down. Please wait...
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+
+INFO: Gracefully shutting down. Please wait...
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.

@@ -86,3 +86,323 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 [2022-10-18 18:24:21 +0700] [1369087] [INFO] Started server process [1369087]
 [2022-10-18 18:24:21 +0700] [1369087] [INFO] Waiting for application startup.
 [2022-10-18 18:24:21 +0700] [1369087] [INFO] Application startup complete.
+[2022-10-18 18:36:22 +0700] [1369594] [INFO] Starting gunicorn 20.1.0
+[2022-10-18 18:36:22 +0700] [1369594] [INFO] Listening at: http://10.242.184.93:443 (1369594)
+[2022-10-18 18:36:22 +0700] [1369594] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-10-18 18:36:22 +0700] [1369596] [INFO] Booting worker with pid: 1369596
+[2022-10-18 18:36:22 +0700] [1369597] [INFO] Booting worker with pid: 1369597
+[2022-10-18 18:36:23 +0700] [1369601] [INFO] Booting worker with pid: 1369601
+[2022-10-18 18:36:23 +0700] [1369605] [INFO] Booting worker with pid: 1369605
+[2022-10-18 18:36:24 +0700] [1369596] [INFO] Started server process [1369596]
+[2022-10-18 18:36:24 +0700] [1369596] [INFO] Waiting for application startup.
+[2022-10-18 18:36:24 +0700] [1369596] [INFO] Application startup complete.
+[2022-10-18 18:36:24 +0700] [1369597] [INFO] Started server process [1369597]
+[2022-10-18 18:36:24 +0700] [1369597] [INFO] Waiting for application startup.
+[2022-10-18 18:36:24 +0700] [1369597] [INFO] Application startup complete.
+[2022-10-18 18:36:24 +0700] [1369601] [INFO] Started server process [1369601]
+[2022-10-18 18:36:24 +0700] [1369601] [INFO] Waiting for application startup.
+[2022-10-18 18:36:24 +0700] [1369601] [INFO] Application startup complete.
+[2022-10-18 18:36:24 +0700] [1369605] [INFO] Started server process [1369605]
+[2022-10-18 18:36:24 +0700] [1369605] [INFO] Waiting for application startup.
+[2022-10-18 18:36:24 +0700] [1369605] [INFO] Application startup complete.
+[2022-11-07 16:04:39 +0700] [1369594] [INFO] Handling signal: term
+[2022-11-07 16:04:39 +0700] [1369594] [WARNING] Worker with pid 1369605 was terminated due to signal 1
+[2022-11-07 16:04:39 +0700] [1369594] [WARNING] Worker with pid 1369597 was terminated due to signal 1
+[2022-11-07 16:04:39 +0700] [1369594] [WARNING] Worker with pid 1369601 was terminated due to signal 1
+[2022-11-07 16:04:39 +0700] [1369594] [WARNING] Worker with pid 1369596 was terminated due to signal 1
+[2022-11-07 16:04:39 +0700] [1369594] [INFO] Shutting down: Master
+[2022-11-09 02:01:04 +0700] [2184] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:01:04 +0700] [2184] [INFO] Listening at: http://10.242.184.93:443 (2184)
+[2022-11-09 02:01:04 +0700] [2184] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:01:04 +0700] [2186] [INFO] Booting worker with pid: 2186
+[2022-11-09 02:01:04 +0700] [2187] [INFO] Booting worker with pid: 2187
+[2022-11-09 02:01:04 +0700] [2188] [INFO] Booting worker with pid: 2188
+[2022-11-09 02:01:04 +0700] [2189] [INFO] Booting worker with pid: 2189
+[2022-11-09 02:01:08 +0700] [2187] [INFO] Started server process [2187]
+[2022-11-09 02:01:08 +0700] [2188] [INFO] Started server process [2188]
+[2022-11-09 02:01:08 +0700] [2186] [INFO] Started server process [2186]
+[2022-11-09 02:01:08 +0700] [2187] [INFO] Waiting for application startup.
+[2022-11-09 02:01:08 +0700] [2188] [INFO] Waiting for application startup.
+[2022-11-09 02:01:08 +0700] [2189] [INFO] Started server process [2189]
+[2022-11-09 02:01:08 +0700] [2186] [INFO] Waiting for application startup.
+[2022-11-09 02:01:08 +0700] [2189] [INFO] Waiting for application startup.
+[2022-11-09 02:01:08 +0700] [2187] [INFO] Application startup complete.
+[2022-11-09 02:01:08 +0700] [2188] [INFO] Application startup complete.
+[2022-11-09 02:01:08 +0700] [2186] [INFO] Application startup complete.
+[2022-11-09 02:01:08 +0700] [2189] [INFO] Application startup complete.
+[2022-11-09 02:06:58 +0700] [2401] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:06:58 +0700] [2401] [INFO] Listening at: http://10.242.184.93:443 (2401)
+[2022-11-09 02:06:58 +0700] [2400] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:06:58 +0700] [2401] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:06:58 +0700] [2400] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-11-09 02:06:58 +0700] [2400] [ERROR] Retrying in 1 second.
+[2022-11-09 02:06:58 +0700] [2404] [INFO] Booting worker with pid: 2404
+[2022-11-09 02:06:58 +0700] [2405] [INFO] Booting worker with pid: 2405
+[2022-11-09 02:06:58 +0700] [2406] [INFO] Booting worker with pid: 2406
+[2022-11-09 02:06:58 +0700] [2407] [INFO] Booting worker with pid: 2407
+[2022-11-09 02:06:59 +0700] [2400] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-11-09 02:06:59 +0700] [2400] [ERROR] Retrying in 1 second.
+[2022-11-09 02:06:59 +0700] [2406] [INFO] Started server process [2406]
+[2022-11-09 02:06:59 +0700] [2406] [INFO] Waiting for application startup.
+[2022-11-09 02:06:59 +0700] [2406] [INFO] Application startup complete.
+[2022-11-09 02:06:59 +0700] [2405] [INFO] Started server process [2405]
+[2022-11-09 02:06:59 +0700] [2405] [INFO] Waiting for application startup.
+[2022-11-09 02:06:59 +0700] [2405] [INFO] Application startup complete.
+[2022-11-09 02:06:59 +0700] [2407] [INFO] Started server process [2407]
+[2022-11-09 02:06:59 +0700] [2407] [INFO] Waiting for application startup.
+[2022-11-09 02:06:59 +0700] [2407] [INFO] Application startup complete.
+[2022-11-09 02:06:59 +0700] [2404] [INFO] Started server process [2404]
+[2022-11-09 02:06:59 +0700] [2404] [INFO] Waiting for application startup.
+[2022-11-09 02:06:59 +0700] [2404] [INFO] Application startup complete.
+[2022-11-09 02:07:00 +0700] [2400] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-11-09 02:07:00 +0700] [2400] [ERROR] Retrying in 1 second.
+[2022-11-09 02:07:01 +0700] [2400] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-11-09 02:07:01 +0700] [2400] [ERROR] Retrying in 1 second.
+[2022-11-09 02:07:02 +0700] [2400] [ERROR] Connection in use: ('10.242.184.93', 443)
+[2022-11-09 02:07:02 +0700] [2400] [ERROR] Retrying in 1 second.
+[2022-11-09 02:07:03 +0700] [2400] [ERROR] Can't connect to ('10.242.184.93', 443)
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.0.
+INFO: Accepting connections at http://localhost:80.
+[2022-11-09 02:21:20 +0700] [3041] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:21:20 +0700] [3041] [INFO] Listening at: http://10.242.184.93:443 (3041)
+[2022-11-09 02:21:20 +0700] [3041] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:21:20 +0700] [3054] [INFO] Booting worker with pid: 3054
+[2022-11-09 02:21:20 +0700] [3054] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/workers.py", line 66, in init_process
+    super(UvicornWorker, self).init_process()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '/home/pusintek/dupakq/main'
+[2022-11-09 02:21:20 +0700] [3054] [INFO] Worker exiting (pid: 3054)
+[2022-11-09 02:21:20 +0700] [3041] [INFO] Shutting down: Master
+[2022-11-09 02:21:20 +0700] [3041] [INFO] Reason: Worker failed to boot.
+[2022-11-09 02:23:11 +0700] [3117] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:23:11 +0700] [3117] [INFO] Listening at: http://10.242.184.93:443 (3117)
+[2022-11-09 02:23:11 +0700] [3117] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:23:11 +0700] [3119] [INFO] Booting worker with pid: 3119
+[2022-11-09 02:23:11 +0700] [3119] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/workers.py", line 66, in init_process
+    super(UvicornWorker, self).init_process()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '/home/pusintek/dupakq/main'
+[2022-11-09 02:23:11 +0700] [3119] [INFO] Worker exiting (pid: 3119)
+[2022-11-09 02:23:11 +0700] [3117] [INFO] Shutting down: Master
+[2022-11-09 02:23:11 +0700] [3117] [INFO] Reason: Worker failed to boot.
+ UPDATE  The latest version of `serve` is 14.1.0.
+[2022-11-09 02:27:52 +0700] [3273] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:27:52 +0700] [3273] [INFO] Listening at: http://10.242.184.93:443 (3273)
+[2022-11-09 02:27:52 +0700] [3273] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:27:52 +0700] [3286] [INFO] Booting worker with pid: 3286
+INFO: Accepting connections at http://localhost:80.
+[2022-11-09 02:27:52 +0700] [3287] [INFO] Booting worker with pid: 3287
+[2022-11-09 02:27:52 +0700] [3288] [INFO] Booting worker with pid: 3288
+[2022-11-09 02:27:52 +0700] [3292] [INFO] Booting worker with pid: 3292
+[2022-11-09 02:27:54 +0700] [3287] [INFO] Started server process [3287]
+[2022-11-09 02:27:54 +0700] [3287] [INFO] Waiting for application startup.
+[2022-11-09 02:27:54 +0700] [3287] [INFO] Application startup complete.
+[2022-11-09 02:27:54 +0700] [3288] [INFO] Started server process [3288]
+[2022-11-09 02:27:54 +0700] [3288] [INFO] Waiting for application startup.
+[2022-11-09 02:27:54 +0700] [3288] [INFO] Application startup complete.
+[2022-11-09 02:27:54 +0700] [3286] [INFO] Started server process [3286]
+[2022-11-09 02:27:54 +0700] [3286] [INFO] Waiting for application startup.
+[2022-11-09 02:27:54 +0700] [3286] [INFO] Application startup complete.
+[2022-11-09 02:27:54 +0700] [3292] [INFO] Started server process [3292]
+[2022-11-09 02:27:54 +0700] [3292] [INFO] Waiting for application startup.
+[2022-11-09 02:27:54 +0700] [3292] [INFO] Application startup complete.
+[2022-11-09 02:32:32 +0700] [3474] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:32:32 +0700] [3474] [INFO] Listening at: http://10.242.184.93:443 (3474)
+[2022-11-09 02:32:32 +0700] [3474] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:32:32 +0700] [3487] [INFO] Booting worker with pid: 3487
+[2022-11-09 02:32:32 +0700] [3488] [INFO] Booting worker with pid: 3488
+[2022-11-09 02:32:32 +0700] [3489] [INFO] Booting worker with pid: 3489
+[2022-11-09 02:32:32 +0700] [3490] [INFO] Booting worker with pid: 3490
+[2022-11-09 02:32:34 +0700] [3487] [INFO] Started server process [3487]
+[2022-11-09 02:32:34 +0700] [3487] [INFO] Waiting for application startup.
+[2022-11-09 02:32:34 +0700] [3487] [INFO] Application startup complete.
+[2022-11-09 02:32:34 +0700] [3488] [INFO] Started server process [3488]
+[2022-11-09 02:32:34 +0700] [3488] [INFO] Waiting for application startup.
+[2022-11-09 02:32:34 +0700] [3488] [INFO] Application startup complete.
+[2022-11-09 02:32:34 +0700] [3490] [INFO] Started server process [3490]
+[2022-11-09 02:32:34 +0700] [3490] [INFO] Waiting for application startup.
+[2022-11-09 02:32:34 +0700] [3490] [INFO] Application startup complete.
+[2022-11-09 02:32:34 +0700] [3489] [INFO] Started server process [3489]
+[2022-11-09 02:32:34 +0700] [3489] [INFO] Waiting for application startup.
+[2022-11-09 02:32:34 +0700] [3489] [INFO] Application startup complete.
+[2022-11-09 02:40:14 +0700] [3474] [INFO] Handling signal: term
+[2022-11-09 02:40:14 +0700] [3474] [WARNING] Worker with pid 3487 was terminated due to signal 1
+[2022-11-09 02:40:14 +0700] [3474] [WARNING] Worker with pid 3490 was terminated due to signal 1
+[2022-11-09 02:40:14 +0700] [3474] [WARNING] Worker with pid 3488 was terminated due to signal 1
+[2022-11-09 02:40:14 +0700] [3474] [WARNING] Worker with pid 3489 was terminated due to signal 1
+[2022-11-09 02:40:14 +0700] [3474] [INFO] Shutting down: Master
+[2022-11-09 02:43:11 +0700] [1831] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:43:11 +0700] [1831] [INFO] Listening at: http://10.242.184.93:443 (1831)
+[2022-11-09 02:43:11 +0700] [1831] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:43:11 +0700] [1844] [INFO] Booting worker with pid: 1844
+[2022-11-09 02:43:11 +0700] [1845] [INFO] Booting worker with pid: 1845
+[2022-11-09 02:43:11 +0700] [1846] [INFO] Booting worker with pid: 1846
+[2022-11-09 02:43:11 +0700] [1847] [INFO] Booting worker with pid: 1847
+[2022-11-09 02:43:17 +0700] [1845] [INFO] Started server process [1845]
+[2022-11-09 02:43:17 +0700] [1846] [INFO] Started server process [1846]
+[2022-11-09 02:43:17 +0700] [1847] [INFO] Started server process [1847]
+[2022-11-09 02:43:17 +0700] [1844] [INFO] Started server process [1844]
+[2022-11-09 02:43:17 +0700] [1845] [INFO] Waiting for application startup.
+[2022-11-09 02:43:17 +0700] [1846] [INFO] Waiting for application startup.
+[2022-11-09 02:43:17 +0700] [1847] [INFO] Waiting for application startup.
+[2022-11-09 02:43:17 +0700] [1844] [INFO] Waiting for application startup.
+[2022-11-09 02:43:17 +0700] [1846] [INFO] Application startup complete.
+[2022-11-09 02:43:17 +0700] [1845] [INFO] Application startup complete.
+[2022-11-09 02:43:17 +0700] [1847] [INFO] Application startup complete.
+[2022-11-09 02:43:17 +0700] [1844] [INFO] Application startup complete.
+[2022-11-09 02:49:16 +0700] [1831] [INFO] Handling signal: term
+[2022-11-09 02:49:16 +0700] [1831] [WARNING] Worker with pid 1845 was terminated due to signal 1
+[2022-11-09 02:49:16 +0700] [1831] [WARNING] Worker with pid 1847 was terminated due to signal 1
+[2022-11-09 02:49:16 +0700] [1831] [WARNING] Worker with pid 1846 was terminated due to signal 1
+[2022-11-09 02:49:16 +0700] [1831] [WARNING] Worker with pid 1844 was terminated due to signal 1
+[2022-11-09 02:49:16 +0700] [1831] [INFO] Shutting down: Master
+[2022-11-09 02:51:18 +0700] [1816] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:51:18 +0700] [1816] [INFO] Listening at: http://10.242.184.93:443 (1816)
+[2022-11-09 02:51:18 +0700] [1816] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:51:18 +0700] [1829] [INFO] Booting worker with pid: 1829
+[2022-11-09 02:51:18 +0700] [1830] [INFO] Booting worker with pid: 1830
+[2022-11-09 02:51:18 +0700] [1831] [INFO] Booting worker with pid: 1831
+[2022-11-09 02:51:18 +0700] [1832] [INFO] Booting worker with pid: 1832
+[2022-11-09 02:51:22 +0700] [1832] [INFO] Started server process [1832]
+[2022-11-09 02:51:22 +0700] [1830] [INFO] Started server process [1830]
+[2022-11-09 02:51:22 +0700] [1831] [INFO] Started server process [1831]
+[2022-11-09 02:51:22 +0700] [1832] [INFO] Waiting for application startup.
+[2022-11-09 02:51:22 +0700] [1830] [INFO] Waiting for application startup.
+[2022-11-09 02:51:22 +0700] [1829] [INFO] Started server process [1829]
+[2022-11-09 02:51:22 +0700] [1831] [INFO] Waiting for application startup.
+[2022-11-09 02:51:22 +0700] [1829] [INFO] Waiting for application startup.
+[2022-11-09 02:51:22 +0700] [1830] [INFO] Application startup complete.
+[2022-11-09 02:51:22 +0700] [1832] [INFO] Application startup complete.
+[2022-11-09 02:51:22 +0700] [1831] [INFO] Application startup complete.
+[2022-11-09 02:51:22 +0700] [1829] [INFO] Application startup complete.
+[2022-11-09 02:53:06 +0700] [1816] [INFO] Handling signal: term
+[2022-11-09 02:53:06 +0700] [1816] [WARNING] Worker with pid 1830 was terminated due to signal 1
+[2022-11-09 02:53:06 +0700] [1816] [WARNING] Worker with pid 1829 was terminated due to signal 1
+[2022-11-09 02:53:06 +0700] [1816] [WARNING] Worker with pid 1832 was terminated due to signal 1
+[2022-11-09 02:53:06 +0700] [1816] [WARNING] Worker with pid 1831 was terminated due to signal 1
+[2022-11-09 02:53:06 +0700] [1816] [INFO] Shutting down: Master
+[2022-11-09 02:55:12 +0700] [1820] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 02:55:12 +0700] [1820] [INFO] Listening at: http://10.242.184.93:443 (1820)
+[2022-11-09 02:55:12 +0700] [1820] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 02:55:12 +0700] [1833] [INFO] Booting worker with pid: 1833
+[2022-11-09 02:55:12 +0700] [1834] [INFO] Booting worker with pid: 1834
+[2022-11-09 02:55:12 +0700] [1835] [INFO] Booting worker with pid: 1835
+[2022-11-09 02:55:12 +0700] [1836] [INFO] Booting worker with pid: 1836
+[2022-11-09 02:55:16 +0700] [1833] [INFO] Started server process [1833]
+[2022-11-09 02:55:16 +0700] [1836] [INFO] Started server process [1836]
+[2022-11-09 02:55:16 +0700] [1835] [INFO] Started server process [1835]
+[2022-11-09 02:55:16 +0700] [1833] [INFO] Waiting for application startup.
+[2022-11-09 02:55:16 +0700] [1836] [INFO] Waiting for application startup.
+[2022-11-09 02:55:16 +0700] [1835] [INFO] Waiting for application startup.
+[2022-11-09 02:55:16 +0700] [1834] [INFO] Started server process [1834]
+[2022-11-09 02:55:16 +0700] [1834] [INFO] Waiting for application startup.
+[2022-11-09 02:55:16 +0700] [1833] [INFO] Application startup complete.
+[2022-11-09 02:55:16 +0700] [1836] [INFO] Application startup complete.
+[2022-11-09 02:55:16 +0700] [1835] [INFO] Application startup complete.
+[2022-11-09 02:55:16 +0700] [1834] [INFO] Application startup complete.
+[2022-11-09 03:02:08 +0700] [2094] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 03:02:08 +0700] [2094] [INFO] Listening at: http://10.242.184.93:443 (2094)
+[2022-11-09 03:02:08 +0700] [2094] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 03:02:08 +0700] [2107] [INFO] Booting worker with pid: 2107
+[2022-11-09 03:02:08 +0700] [2108] [INFO] Booting worker with pid: 2108
+[2022-11-09 03:02:08 +0700] [2109] [INFO] Booting worker with pid: 2109
+[2022-11-09 03:02:08 +0700] [2113] [INFO] Booting worker with pid: 2113
+[2022-11-09 03:02:09 +0700] [2107] [INFO] Started server process [2107]
+[2022-11-09 03:02:09 +0700] [2107] [INFO] Waiting for application startup.
+[2022-11-09 03:02:09 +0700] [2107] [INFO] Application startup complete.
+[2022-11-09 03:02:09 +0700] [2108] [INFO] Started server process [2108]
+[2022-11-09 03:02:09 +0700] [2108] [INFO] Waiting for application startup.
+[2022-11-09 03:02:09 +0700] [2108] [INFO] Application startup complete.
+[2022-11-09 03:02:09 +0700] [2113] [INFO] Started server process [2113]
+[2022-11-09 03:02:09 +0700] [2113] [INFO] Waiting for application startup.
+[2022-11-09 03:02:09 +0700] [2113] [INFO] Application startup complete.
+[2022-11-09 03:02:09 +0700] [2109] [INFO] Started server process [2109]
+[2022-11-09 03:02:09 +0700] [2109] [INFO] Waiting for application startup.
+[2022-11-09 03:02:09 +0700] [2109] [INFO] Application startup complete.
+[2022-11-09 03:02:39 +0700] [2094] [INFO] Handling signal: term
+[2022-11-09 03:02:39 +0700] [2094] [WARNING] Worker with pid 2113 was terminated due to signal 1
+[2022-11-09 03:02:39 +0700] [2094] [WARNING] Worker with pid 2108 was terminated due to signal 1
+[2022-11-09 03:02:39 +0700] [2094] [WARNING] Worker with pid 2109 was terminated due to signal 1
+[2022-11-09 03:02:39 +0700] [2094] [WARNING] Worker with pid 2107 was terminated due to signal 1
+[2022-11-09 03:02:39 +0700] [2094] [INFO] Shutting down: Master
+[2022-11-09 03:05:18 +0700] [1844] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 03:05:18 +0700] [1844] [INFO] Listening at: http://10.242.184.93:443 (1844)
+[2022-11-09 03:05:18 +0700] [1844] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 03:05:18 +0700] [1857] [INFO] Booting worker with pid: 1857
+[2022-11-09 03:05:18 +0700] [1858] [INFO] Booting worker with pid: 1858
+[2022-11-09 03:05:18 +0700] [1859] [INFO] Booting worker with pid: 1859
+[2022-11-09 03:05:18 +0700] [1860] [INFO] Booting worker with pid: 1860
+[2022-11-09 03:05:22 +0700] [1859] [INFO] Started server process [1859]
+[2022-11-09 03:05:22 +0700] [1859] [INFO] Waiting for application startup.
+[2022-11-09 03:05:22 +0700] [1860] [INFO] Started server process [1860]
+[2022-11-09 03:05:22 +0700] [1860] [INFO] Waiting for application startup.
+[2022-11-09 03:05:22 +0700] [1859] [INFO] Application startup complete.
+[2022-11-09 03:05:22 +0700] [1858] [INFO] Started server process [1858]
+[2022-11-09 03:05:22 +0700] [1858] [INFO] Waiting for application startup.
+[2022-11-09 03:05:22 +0700] [1860] [INFO] Application startup complete.
+[2022-11-09 03:05:22 +0700] [1858] [INFO] Application startup complete.
+[2022-11-09 03:05:22 +0700] [1857] [INFO] Started server process [1857]
+[2022-11-09 03:05:22 +0700] [1857] [INFO] Waiting for application startup.
+[2022-11-09 03:05:22 +0700] [1857] [INFO] Application startup complete.
+[2022-11-09 03:06:08 +0700] [1925] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 03:06:08 +0700] [1925] [INFO] Listening at: http://10.242.184.93:443 (1925)
+[2022-11-09 03:06:08 +0700] [1925] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 03:06:08 +0700] [1938] [INFO] Booting worker with pid: 1938
+[2022-11-09 03:06:08 +0700] [1939] [INFO] Booting worker with pid: 1939
+[2022-11-09 03:06:08 +0700] [1940] [INFO] Booting worker with pid: 1940
+[2022-11-09 03:06:08 +0700] [1941] [INFO] Booting worker with pid: 1941
+[2022-11-09 03:06:10 +0700] [1938] [INFO] Started server process [1938]
+[2022-11-09 03:06:10 +0700] [1938] [INFO] Waiting for application startup.
+[2022-11-09 03:06:10 +0700] [1938] [INFO] Application startup complete.
+[2022-11-09 03:06:10 +0700] [1939] [INFO] Started server process [1939]
+[2022-11-09 03:06:10 +0700] [1939] [INFO] Waiting for application startup.
+[2022-11-09 03:06:10 +0700] [1939] [INFO] Application startup complete.
+[2022-11-09 03:06:10 +0700] [1940] [INFO] Started server process [1940]
+[2022-11-09 03:06:10 +0700] [1940] [INFO] Waiting for application startup.
+[2022-11-09 03:06:10 +0700] [1940] [INFO] Application startup complete.
+[2022-11-09 03:06:10 +0700] [1941] [INFO] Started server process [1941]
+[2022-11-09 03:06:10 +0700] [1941] [INFO] Waiting for application startup.
+[2022-11-09 03:06:10 +0700] [1941] [INFO] Application startup complete.
+/home/pusintek/miniconda3/bin/python: No module named gunicorn
