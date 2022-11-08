@@ -33,7 +33,6 @@ from uuid import uuid4
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 from datetime import datetime
-import math
 
 
 tokenizer = RegexpTokenizer(r'[a-zA-Z]+')
@@ -261,9 +260,6 @@ def ge_activity_code(txt):
     else:
         return []
 
-EMPTY_STR="empty"
-EMPTY_TH=0.99999
-
 app = FastAPI()
 origins = ["*"]
 
@@ -296,9 +292,6 @@ async def search(request: Request):
         skipped_idx_queue = queue.Queue()
         skipped_distance_queue= queue.Queue()
         q_cleansed = text_preprocessing(q)
-        if not q_cleansed.strip():
-            q_cleansed=EMPTY_STR
-        # print("===============================q_cleansed:{}============================".format(q_cleansed))
         q_vector = vectorize_tfidf(q_cleansed)
         (v_distances, v_indices) = knn.kneighbors([q_vector], n_neighbors=5)
         v_indices = v_indices.tolist()
@@ -414,13 +407,7 @@ async def search2(request: Request):
                     tmp["credit"] = 0.0
                 result[str(a)]=tmp
         else:
-            try:
-                q_cleansed = text_preprocessing(q)
-            except:
-                q_cleansed = EMPTY_STR
-
-            if not q_cleansed:
-                q_cleansed = EMPTY_STR
+            q_cleansed = text_preprocessing(q)
             q_vector = vectorize_tfidf(q_cleansed)
             (v_distances, v_indices) = knn.kneighbors([q_vector], n_neighbors=5)
             v_indices = v_indices.tolist()
@@ -506,10 +493,8 @@ async def search2(request: Request):
                     skipped_distance_queue.put(skipped_d)
 
     arr=[]
-    meanval=math.floor((np.mean([v["distance"] for k,v in result.items()])*100000))/100000.00
-    if meanval!=EMPTY_TH:
-        for i,res in result.items():
-            arr.append(res)
+    for i,res in result.items():
+        arr.append(res)
     result2={"results":arr}
     json_compatible_item_data = jsonable_encoder(result2)
     # json_compatible_item_data = jsonable_encoder(final)

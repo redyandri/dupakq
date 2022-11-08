@@ -406,3 +406,22 @@ INFO: Accepting connections at http://localhost:80.
 [2022-11-09 03:06:10 +0700] [1941] [INFO] Waiting for application startup.
 [2022-11-09 03:06:10 +0700] [1941] [INFO] Application startup complete.
 /home/pusintek/miniconda3/bin/python: No module named gunicorn
+[2022-11-09 03:21:54 +0700] [2442] [INFO] Starting gunicorn 20.1.0
+[2022-11-09 03:21:54 +0700] [2442] [INFO] Listening at: http://10.242.184.93:443 (2442)
+[2022-11-09 03:21:54 +0700] [2442] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2022-11-09 03:21:54 +0700] [2457] [INFO] Booting worker with pid: 2457
+[2022-11-09 03:21:54 +0700] [2458] [INFO] Booting worker with pid: 2458
+[2022-11-09 03:21:54 +0700] [2462] [INFO] Booting worker with pid: 2462
+[2022-11-09 03:21:54 +0700] [2466] [INFO] Booting worker with pid: 2466
+[2022-11-09 03:21:56 +0700] [2458] [INFO] Started server process [2458]
+[2022-11-09 03:21:56 +0700] [2458] [INFO] Waiting for application startup.
+[2022-11-09 03:21:56 +0700] [2458] [INFO] Application startup complete.
+[2022-11-09 03:21:56 +0700] [2457] [INFO] Started server process [2457]
+[2022-11-09 03:21:56 +0700] [2457] [INFO] Waiting for application startup.
+[2022-11-09 03:21:56 +0700] [2457] [INFO] Application startup complete.
+[2022-11-09 03:21:56 +0700] [2462] [INFO] Started server process [2462]
+[2022-11-09 03:21:56 +0700] [2462] [INFO] Waiting for application startup.
+[2022-11-09 03:21:56 +0700] [2462] [INFO] Application startup complete.
+[2022-11-09 03:21:56 +0700] [2466] [INFO] Started server process [2466]
+[2022-11-09 03:21:56 +0700] [2466] [INFO] Waiting for application startup.
+[2022-11-09 03:21:56 +0700] [2466] [INFO] Application startup complete.
