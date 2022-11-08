@@ -1,18 +1,17 @@
 import React from "react";
 import { useTable, useSortBy } from 'react-table';
 import { Navigate } from 'react-router';
+import {useMemo} from 'react';
+import {Link} from '@mui/material'
 
 
 
-
-export default function Table({ columns, data }) {
+export default function Table({ cols, data,ref }) {
     
   const defaultColumn = {
     width: "auto",
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   const handleDownloadClick= async (idx)=>{
     let arr=idx.split("_")
@@ -20,7 +19,7 @@ export default function Table({ columns, data }) {
     let kode=arr[2]
     console.log("gonna download:",idk);
 
-     await fetch('http://10.242184.93:443/download/', {
+     await fetch('http://10.242.184.93:443/download/', {
       mode:"cors",
       method: 'POST',
       headers: {
@@ -30,7 +29,7 @@ export default function Table({ columns, data }) {
       // credentials: "include",
       body: JSON.stringify({
         "idx": idk,
-        "act":ref0.current.value,
+        "act":ref.current.value,
       })
     }).then((res) => {
       console.log(res)
@@ -40,7 +39,7 @@ export default function Table({ columns, data }) {
       const href = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = href;
-      let doc_name=kode +"_"+ref0.current.value+".docx"
+      let doc_name=kode +"_"+ref.current.value+".docx"
       link.setAttribute('download', doc_name); //or any other extension
       document.body.appendChild(link);
       link.click();
@@ -96,11 +95,6 @@ export default function Table({ columns, data }) {
     ],
     []
   );
-
-=======
->>>>>>> parent of 55fba2e... fix empty respond for non existent dataset
-=======
->>>>>>> parent of 55fba2e... fix empty respond for non existent dataset
     // Use the useTable Hook to send the columns and data to build the table
     const {
       getTableProps, // table props from react-table

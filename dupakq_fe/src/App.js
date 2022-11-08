@@ -199,7 +199,7 @@ function App() {
           label="Search"
         />
         <button type="Submit" onClick={queryDupak}>cari</button>
-        <Table columns={columns} data={data} />
+        <Table cols={columns} data={data} ref={ref0}/>
       
       </div>
       <div className="App" style={{ fontFamily: "Quicksand" }}>
