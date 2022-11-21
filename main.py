@@ -35,6 +35,10 @@ import logging
 from datetime import datetime
 import math
 from neo4j import GraphDatabase
+from nltk.tag import CRFTagger
+
+tagger=CRFTagger()
+tagger.set_model_file(r"model/all_indo_man_tag_corpus_model.crf.tagger")
 
 
 
