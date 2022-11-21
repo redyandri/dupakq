@@ -34,6 +34,8 @@ from fastapi.middleware.cors import CORSMiddleware
 import logging
 from datetime import datetime
 import math
+from neo4j import GraphDatabase
+
 
 
 tokenizer = RegexpTokenizer(r'[a-zA-Z]+')
@@ -566,6 +568,114 @@ async def download(request: Request):
             }
             return StreamingResponse(file_stream, headers=headers)
 
+
+uri="bolt://10.242.184.93:7687"
+user='neo4j'
+password='test'
+neo4j_driver = GraphDatabase.driver(uri, auth=(user, password))  
+
+def text_preprocessing_id(text):
+    if text:
+        prep01 = tokenize_clean(text)
+        prep02 = remove_stopwords(prep01)
+        prep03 = stem_text(prep02)
+        prep06 = revome_slash_n(prep03)
+        prep07 = lower_text(prep06)
+        prep08 = make_sentence(prep07)
+        return prep08
+
+def text_preprocessing_en(text):
+    if text:
+        prep01 = tokenize_clean(text)
+        prep04 = remove_en_stopwords(prep01)
+        prep05 = stem_en_text(prep04)
+        prep06 = revome_slash_n(prep05)
+        prep07 = lower_text(prep06)
+        prep08 = make_sentence(prep07)
+        return prep08
+
+def get_word(txt,ref,preserve_empty_words=False):
+    word=""
+    try:
+        rel=txt.split()
+        rels=[]
+        for r in rel:
+            a=r.split("_")
+            if len(a)==2:
+                pos=a[0]
+                idx=a[-1]
+                label=ref[int(idx)]
+                if pos in ["FW"]:#["FW","Z"]:
+                    label2=text_preprocessing_en(label)
+                else:
+                    label2=text_preprocessing_id(label)
+                if label2:
+                    rels.append(label2)
+                else:
+                    if preserve_empty_words:
+                        rels.append(label)
+        word=" ".join(rels)
+    except Exception as x:
+        print("ERROR on text {} why?:{}".format(txt,str(x)))
+    return word
+    
+    
+def get_graph_rel(txt):
+    tagged0=tagger.tag_sents([txt.split()])
+    ori_pos=[pos[-1]+"_"+str(i) for i,pos in enumerate(tagged0[0])]
+    ori_word=[pos[0] for i,pos in enumerate(tagged0[0])]
+    pos_sent=" ".join(ori_pos)
+    nnps = re.findall("[NPFWZ_\d]{4,6}\s[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*[NPFWZ_\d]*\s*", pos_sent)
+    prev=""
+    edges=[]
+    for nnp in nnps:
+        nnp=str(nnp).strip()
+        if prev:
+            rel=re.findall("(?<="+prev+").*?(?="+nnp+")",pos_sent)
+#             print("REL:",rel)
+            if rel:
+                rel=rel[0]
+                try:
+#                     i=int(rel.split("_")[-1])
+                    vb=get_word(rel,ori_word,preserve_empty_words=True)#ori_word[i]
+#                     print(rel+'++++++++'+vb)
+                    if re.findall("\w+",vb):
+                        r=vb#get_word(rel,ori_word)
+                        nn1=get_word(prev,ori_word)
+                        nn2=get_word(nnp,ori_word)
+                        if nn1 and nn2:
+                            edges.append([nn1,r,nn2,0.55,147])
+                except Exception as x:
+                    print("ERR on vb:{}:{}".format(rel,x))
+                    with open('data/err.txt','a+') as fo:
+                        fo.write(prev+'---'+rel+'---'+nnp+'\n')
+                
+        prev=nnp
+
+    return edges
+
+@app.post("/query_graph/")
+async def query_graph(request: Request):
+    result = {}
+    form=await request.json()
+    q = str(form["q"])
+    if q:
+        arr=[]
+        with neo4j_driver.session() as session:
+            for x in get_graph_rel(q):
+                result = session.run("match p=(m)-[r]-(n) where m.label contains '"+x[0]+"' \
+                                    or n.label contains '"+x[2]+"' return m,r,n")
+                tmp={'node1':{},'rel':{},'node2':{}}
+                for record in result:
+                    tmp['node1']['label']=record['m']['label']
+                    tmp['rel']['label']=record['r']['label']
+                    tmp['rel']['idx']=record['r']['idx']
+                    tmp['rel']['score']=record['r']['score']
+                    tmp['node2']['label']=record['n']['label']
+                    arr.append(tmp)
+        result={"results":arr}
+        json_compatible_item_data = jsonable_encoder(result)
+        return JSONResponse(content=json_compatible_item_data)
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000)#, reload=True)

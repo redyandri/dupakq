@@ -5,8 +5,11 @@ import "./App.css";
 import {useRef, useEffect} from 'react';
 import { useMemo } from "react";
 import Table from "./Table";
+import NetGraph from './NetGraph';
 import { Link } from '@mui/material';
-import { NeoGraph, ResponsiveNeoGraph } from "./NeoGraph";
+// import { NeoGraph, ResponsiveNeoGraph } from "./NeoGraph";
+import CytoscapeNet from './CytoscapeNet'
+import RGV from './RGV'
 
 const NEO4J_URI = "bolt://10.242.184.93:7687";
 const NEO4J_USER = "neo4j";
@@ -79,32 +82,6 @@ function App() {
     var lowerCase = ref0.current.value
     setInputText(lowerCase);
   };
-
-  // let handleButtonClick= async (row)=>{
-  //   console.log("gonna download:",row);
-  //    await fetch('http://127.0.0.1:8000/search2/', {
-  //     mode:"cors",
-  //     method: 'POST',
-  //     headers: {
-  //       'Accept': 'application/json',
-  //       "Content-type": "application/json"
-  //     },
-  //     // credentials: "include",
-  //     body: JSON.stringify({
-  //       "q": "data"
-  //     })
-  //   }).then((response) => response.json())// {console.log("RESPONSE0",response);})
-  //      .then((responseJson) => {
-  //       // responseJson=JSON.parse(responseJson)
-  //        console.log("RESPONSE",responseJson.results);
-  //       //  console.log("RESPONSE.results",responseJson.results);
-  //        setData(responseJson.results);
-  //        return responseJson;
-  //      })
-  //      .catch((error) => {
-  //        console.error("ERROR",error);
-  //      });
-  // };
 
   let handleDownloadClick= async (idx)=>{
     let arr=idx.split("_")
@@ -199,26 +176,16 @@ function App() {
           label="Search"
         />
         <button type="Submit" onClick={queryDupak}>cari</button>
-        <Table cols={columns} data={data} ref={ref0}/>
+        <Table cols={columns} data={data} q={ref0}/>
       
       </div>
       <div className="App" style={{ fontFamily: "Quicksand" }}>
-      <h1>React Neovis Example</h1>
-      <ResponsiveNeoGraph
-        containerId={"id0"}
-        neo4jUri={NEO4J_URI}
-        neo4jUser={NEO4J_USER}
-        neo4jPassword={NEO4J_PASSWORD}
-      />
-      <NeoGraph
-        width={600}
-        height={500}
-        containerId={"id1"}
-        neo4jUri={NEO4J_URI}
-        neo4jUser={NEO4J_USER}
-        neo4jPassword={NEO4J_PASSWORD}
-        backgroundColor={"#b2beb5"}
-      />
+      <div>
+      <p>RGV</p>
+      <RGV/>
+      </div>
+      
+      
     </div>
     </div>
   );

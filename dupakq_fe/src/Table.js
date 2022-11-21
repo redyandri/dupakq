@@ -6,7 +6,7 @@ import {Link} from '@mui/material'
 
 
 
-export default function Table({ cols, data,ref }) {
+export default function Table({ cols, data,q }) {
     
   const defaultColumn = {
     width: "auto",
@@ -29,7 +29,7 @@ export default function Table({ cols, data,ref }) {
       // credentials: "include",
       body: JSON.stringify({
         "idx": idk,
-        "act":ref.current.value,
+        "act":q.current.value,
       })
     }).then((res) => {
       console.log(res)
@@ -39,7 +39,7 @@ export default function Table({ cols, data,ref }) {
       const href = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = href;
-      let doc_name=kode +"_"+ref.current.value+".docx"
+      let doc_name=kode +"_"+q.current.value+".docx"
       link.setAttribute('download', doc_name); //or any other extension
       document.body.appendChild(link);
       link.click();
