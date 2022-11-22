@@ -626,6 +626,9 @@ def get_word(txt,ref,preserve_empty_words=False):
     
 def get_graph_rel(txt):
     tagged0=tagger.tag_sents([txt.split()])
+    if tagged0[0][0][-1]=='VB':
+        txt='Pegawai '+txt
+        tagged0=tagger.tag_sents([txt.split()])
     ori_pos=[pos[-1]+"_"+str(i) for i,pos in enumerate(tagged0[0])]
     ori_word=[pos[0] for i,pos in enumerate(tagged0[0])]
     pos_sent=" ".join(ori_pos)
