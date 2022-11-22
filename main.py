@@ -670,8 +670,8 @@ async def query_graph(request: Request):
         arr=[]
         with neo4j_driver.session() as session:
             for x in get_graph_rel(q):
-                result = session.run("match p=(m)-[r]-(n) where m.label contains '"+x[0]+"' \
-                                    or n.label contains '"+x[2]+"' return m,r,n")
+                result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+                                 or toLower(n.label) contains '"+str(x[2]).lower()+"' return m,r,n")
                 tmp={'node1':{},'rel':{},'node2':{}}
                 for record in result:
                     tmp['node1']['label']=record['m']['label']
