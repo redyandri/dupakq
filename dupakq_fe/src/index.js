@@ -7,7 +7,7 @@ import registerServiceWorker from "./registerServiceWorker";
 import "./typography.css";
 import { Neo4jProvider, createDriver } from 'use-neo4j'
 
-const driver = createDriver('neo4j', 'localhost', 7687, 'neo4j', 'test')
+// const driver = createDriver('neo4j', 'localhost', 7687, 'neo4j', 'test')
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -20,12 +20,12 @@ const driver = createDriver('neo4j', 'localhost', 7687, 'neo4j', 'test')
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <Neo4jProvider driver={driver}>
+  // <React.StrictMode>
+  //   {/* <App /> */}
+  //   <Neo4jProvider driver={driver}>
       <App />
-    </Neo4jProvider>
-  </React.StrictMode>
+  //   </Neo4jProvider>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
