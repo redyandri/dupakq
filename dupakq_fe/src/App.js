@@ -6,7 +6,6 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import CircularProgress from '@mui/material/CircularProgress';
 import { useCallback } from 'react';
-import AutoHeight from 'react-auto-height';
 require('dotenv').config()
 
 const Table = lazy(() => import("./Table"));
@@ -191,9 +190,7 @@ function App() {
           </Suspense>
         </Grid>
         <Grid container item xs={12} sx={{ sx_default }}>
-          {/* <AutoHeight> */}
           {ngIsLoading ? <><CircularProgress />Loading Graph ..</> : <RGV data={graph} q={ref0} />}
-          {/* </AutoHeight> */}
         </Grid>
       </Grid>
     </Box>
