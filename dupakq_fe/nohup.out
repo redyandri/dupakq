@@ -110,3 +110,160 @@ INFO: Accepting connections at http://localhost:80.
 INFO: Accepting connections at http://localhost:80.
  UPDATE  The latest version of `serve` is 14.1.0.
 INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+INFO: Accepting connections at http://localhost:80.
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+file:///usr/local/lib/node_modules/serve/build/main.js:211
+    throw new Error(`Failed to serve: ${error2.stack?.toString() ?? error2.message}`);
+    ^
+
+Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
+    at Server.setupListenHandle [as _listen2] (node:net:1415:21)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:225:14
+    at new Promise (<anonymous>)
+    at startServer (file:///usr/local/lib/node_modules/serve/build/main.js:221:10)
+    at file:///usr/local/lib/node_modules/serve/build/main.js:461:46
+    at Server.<anonymous> (file:///usr/local/lib/node_modules/serve/build/main.js:211:11)
+    at Server.emit (node:events:513:28)
+    at emitErrorNT (node:net:1459:8)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ UPDATE  The latest version of `serve` is 14.1.2.
+INFO: Accepting connections at http://localhost:80.

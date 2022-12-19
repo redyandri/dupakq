@@ -444,3 +444,124 @@ INFO: Accepting connections at http://localhost:80.
 [2022-11-09 04:50:23 +0700] [5095] [INFO] Started server process [5095]
 [2022-11-09 04:50:23 +0700] [5095] [INFO] Waiting for application startup.
 [2022-11-09 04:50:23 +0700] [5095] [INFO] Application startup complete.
+[2022-12-19 09:46:00 +0700] [25875] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 09:46:00 +0700] [25875] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:00 +0700] [25875] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:01 +0700] [25875] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:01 +0700] [25875] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:02 +0700] [25875] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:02 +0700] [25875] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:03 +0700] [25875] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:03 +0700] [25875] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:04 +0700] [25875] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:04 +0700] [25875] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:05 +0700] [25875] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 09:46:49 +0700] [25903] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 09:46:49 +0700] [25903] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:49 +0700] [25903] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:50 +0700] [25903] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:50 +0700] [25903] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:51 +0700] [25903] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:51 +0700] [25903] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:52 +0700] [25903] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:52 +0700] [25903] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:53 +0700] [25903] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:46:53 +0700] [25903] [ERROR] Retrying in 1 second.
+[2022-12-19 09:46:54 +0700] [25903] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 09:49:29 +0700] [25983] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 09:49:29 +0700] [25983] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:49:29 +0700] [25983] [ERROR] Retrying in 1 second.
+[2022-12-19 09:49:30 +0700] [25983] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:49:30 +0700] [25983] [ERROR] Retrying in 1 second.
+[2022-12-19 09:49:31 +0700] [25983] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:49:31 +0700] [25983] [ERROR] Retrying in 1 second.
+[2022-12-19 09:49:32 +0700] [25983] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:49:32 +0700] [25983] [ERROR] Retrying in 1 second.
+[2022-12-19 09:49:33 +0700] [25983] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:49:33 +0700] [25983] [ERROR] Retrying in 1 second.
+[2022-12-19 09:49:34 +0700] [25983] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 09:51:13 +0700] [26036] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 09:51:13 +0700] [26036] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:51:13 +0700] [26036] [ERROR] Retrying in 1 second.
+[2022-12-19 09:51:14 +0700] [26036] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:51:14 +0700] [26036] [ERROR] Retrying in 1 second.
+[2022-12-19 09:51:15 +0700] [26036] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:51:15 +0700] [26036] [ERROR] Retrying in 1 second.
+[2022-12-19 09:51:16 +0700] [26036] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:51:16 +0700] [26036] [ERROR] Retrying in 1 second.
+[2022-12-19 09:51:17 +0700] [26036] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:51:17 +0700] [26036] [ERROR] Retrying in 1 second.
+[2022-12-19 09:51:18 +0700] [26036] [ERROR] Can't connect to ('10.242.184.93', 8000)
+/Users/anandri/miniconda3/bin/python: No module named gunicorn
+[2022-12-19 09:58:33 +0700] [26956] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 09:58:33 +0700] [26956] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:58:33 +0700] [26956] [ERROR] Retrying in 1 second.
+[2022-12-19 09:58:34 +0700] [26956] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:58:34 +0700] [26956] [ERROR] Retrying in 1 second.
+[2022-12-19 09:58:35 +0700] [26956] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:58:35 +0700] [26956] [ERROR] Retrying in 1 second.
+[2022-12-19 09:58:36 +0700] [26956] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:58:36 +0700] [26956] [ERROR] Retrying in 1 second.
+[2022-12-19 09:58:37 +0700] [26956] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 09:58:37 +0700] [26956] [ERROR] Retrying in 1 second.
+[2022-12-19 09:58:38 +0700] [26956] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 10:05:29 +0700] [27840] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 10:05:29 +0700] [27840] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:05:29 +0700] [27840] [ERROR] Retrying in 1 second.
+[2022-12-19 10:05:30 +0700] [27840] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:05:30 +0700] [27840] [ERROR] Retrying in 1 second.
+[2022-12-19 10:05:31 +0700] [27840] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:05:31 +0700] [27840] [ERROR] Retrying in 1 second.
+[2022-12-19 10:05:32 +0700] [27840] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:05:32 +0700] [27840] [ERROR] Retrying in 1 second.
+[2022-12-19 10:05:33 +0700] [27840] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:05:33 +0700] [27840] [ERROR] Retrying in 1 second.
+[2022-12-19 10:05:34 +0700] [27840] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 10:06:37 +0700] [28261] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 10:06:37 +0700] [28261] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:06:37 +0700] [28261] [ERROR] Retrying in 1 second.
+[2022-12-19 10:06:38 +0700] [28261] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:06:38 +0700] [28261] [ERROR] Retrying in 1 second.
+[2022-12-19 10:06:39 +0700] [28261] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:06:39 +0700] [28261] [ERROR] Retrying in 1 second.
+[2022-12-19 10:06:40 +0700] [28261] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:06:40 +0700] [28261] [ERROR] Retrying in 1 second.
+[2022-12-19 10:06:41 +0700] [28261] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:06:41 +0700] [28261] [ERROR] Retrying in 1 second.
+[2022-12-19 10:06:42 +0700] [28261] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 10:08:46 +0700] [29048] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 10:08:46 +0700] [29048] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:08:46 +0700] [29048] [ERROR] Retrying in 1 second.
+[2022-12-19 10:08:47 +0700] [29048] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:08:47 +0700] [29048] [ERROR] Retrying in 1 second.
+[2022-12-19 10:08:48 +0700] [29048] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:08:48 +0700] [29048] [ERROR] Retrying in 1 second.
+[2022-12-19 10:08:49 +0700] [29048] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:08:49 +0700] [29048] [ERROR] Retrying in 1 second.
+[2022-12-19 10:08:50 +0700] [29048] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:08:50 +0700] [29048] [ERROR] Retrying in 1 second.
+[2022-12-19 10:08:51 +0700] [29048] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 10:10:51 +0700] [29829] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 10:10:51 +0700] [29829] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:10:51 +0700] [29829] [ERROR] Retrying in 1 second.
+[2022-12-19 10:10:52 +0700] [29829] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:10:52 +0700] [29829] [ERROR] Retrying in 1 second.
+[2022-12-19 10:10:53 +0700] [29829] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:10:53 +0700] [29829] [ERROR] Retrying in 1 second.
+[2022-12-19 10:10:54 +0700] [29829] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:10:54 +0700] [29829] [ERROR] Retrying in 1 second.
+[2022-12-19 10:10:55 +0700] [29829] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:10:55 +0700] [29829] [ERROR] Retrying in 1 second.
+[2022-12-19 10:10:56 +0700] [29829] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2022-12-19 10:11:13 +0700] [30233] [INFO] Starting gunicorn 20.1.0
+[2022-12-19 10:11:13 +0700] [30233] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:11:13 +0700] [30233] [ERROR] Retrying in 1 second.
+[2022-12-19 10:11:14 +0700] [30233] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:11:14 +0700] [30233] [ERROR] Retrying in 1 second.
+[2022-12-19 10:11:15 +0700] [30233] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:11:15 +0700] [30233] [ERROR] Retrying in 1 second.
+[2022-12-19 10:11:16 +0700] [30233] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:11:16 +0700] [30233] [ERROR] Retrying in 1 second.
+[2022-12-19 10:11:17 +0700] [30233] [ERROR] Invalid address: ('10.242.184.93', 8000)
+[2022-12-19 10:11:17 +0700] [30233] [ERROR] Retrying in 1 second.
+[2022-12-19 10:11:18 +0700] [30233] [ERROR] Can't connect to ('10.242.184.93', 8000)

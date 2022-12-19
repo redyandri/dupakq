@@ -20,6 +20,7 @@ function Table({ data, q, setGraph, setGraphLoading }) {
   const getGraphData = async (row_infomation) => {
     try {
       let activity = row_infomation.activity //activity_full
+      // console.log('row_cells:', row_cells)
       console.log('activity:', activity)
       setGraphLoading(true);
       const respnd = await fetch(API_URI + '/query_graph2/', {
