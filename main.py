@@ -260,7 +260,7 @@ def ge_activity_code(txt):
 EMPTY_STR = "empty"
 EMPTY_TH = 0.99999
 
-app = FastAPI()
+# app = FastAPI()
 origins = ["http://localhost",
 "http://10.242.184.93",
 "http://localhost:3000",
@@ -270,14 +270,24 @@ origins = ["http://localhost",
 "http://localhost:3000/",
 "http://10.242.184.93:3000/"]
 
+middleware = [
+    Middleware(
+        CORSMiddleware,
+        allow_origins=['*'],
+        allow_credentials=True,
+        allow_methods=['*'],
+        allow_headers=['*']
+    )
+]
+app=FastAPI(middleware=middleware)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"]
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=origins,
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"]
+# )
 
 
 class Query(BaseModel):
