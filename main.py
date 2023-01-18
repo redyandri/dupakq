@@ -259,7 +259,7 @@ EMPTY_STR = "empty"
 EMPTY_TH = 0.99999
 
 app = FastAPI()
-origins = ["*"]
+origins = ["http://localhost","http://10.242.184.93"]
 
 
 app.add_middleware(
