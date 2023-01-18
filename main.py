@@ -509,7 +509,11 @@ async def search2(request: Request):
                 tmp["activity"] = df_dupak_all.loc[idx, "activity_last_part"]
                 tmp["activity_full"] = df_dupak_all.loc[idx, "activities"]
                 tmp["level"] = df_dupak_all.loc[idx, "jenjang"]
-                tmp["credit"] = float(df_dupak_all.loc[idx, "ak"])
+                try:
+                    tmp["credit"] = float(df_dupak_all.loc[idx, "ak"])
+                except:
+                    tmp["credit"] = df_dupak_all.loc[idx, "ak"]
+                
                 # tmp["session"]=get_docx_link(idx)
                 result[i] = tmp
                 elapsed_idx.append(idx)
