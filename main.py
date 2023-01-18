@@ -15,6 +15,10 @@ import random
 import uuid
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
+from fastapi.responses import Response
+from fastapi import APIRouter
+from fastapi.routing import APIRoute
+from typing import Callable
 from pydantic import BaseModel
 from fastapi import Body
 import uvicorn
@@ -39,6 +43,28 @@ from neo4j import GraphDatabase
 from nltk.tag import CRFTagger
 from decouple import config
 import colorsys
+
+app = FastAPI()
+
+# Handle CORS
+class CORSHandler(APIRoute):
+    def get_route_handler(self) -> Callable:
+        original_route_handler = super().get_route_handler()
+
+        async def preflight_handler(request: Request) -> Response:
+            if request.method == 'OPTIONS':
+                response = Response()
+                response.headers['Access-Control-Allow-Origin'] = '*'
+                response.headers['Access-Control-Allow-Methods'] = 'POST, GET, DELETE, OPTIONS'
+                response.headers['Access-Control-Allow-Headers'] = 'Authorization, Content-Type'
+            else:
+                response = await original_route_handler(request)
+
+        return preflight_handler
+
+router = APIRouter(route_class=CORSHandler)
+app.include_router(router)
+
 
 tagger = CRFTagger()
 tagger.set_model_file(r"model/all_indo_man_tag_corpus_model.crf.tagger")
@@ -261,25 +287,15 @@ EMPTY_STR = "empty"
 EMPTY_TH = 0.99999
 
 # app = FastAPI()
-origins = ["http://localhost",
-"http://10.242.184.93",
-"http://localhost:3000",
-"http://10.242.184.93:3000"
-"http://localhost/",
-"http://10.242.184.93/",
-"http://localhost:3000/",
-"http://10.242.184.93:3000/"]
+# origins = ["http://localhost",
+# "http://10.242.184.93",
+# "http://localhost:3000",
+# "http://10.242.184.93:3000"
+# "http://localhost/",
+# "http://10.242.184.93/",
+# "http://localhost:3000/",
+# "http://10.242.184.93:3000/"]
 
-middleware = [
-    Middleware(
-        CORSMiddleware,
-        allow_origins=['*'],
-        allow_credentials=True,
-        allow_methods=['*'],
-        allow_headers=['*']
-    )
-]
-app=FastAPI(middleware=middleware)
 
 # app.add_middleware(
 #     CORSMiddleware,
@@ -288,6 +304,7 @@ app=FastAPI(middleware=middleware)
 #     allow_methods=["*"],
 #     allow_headers=["*"]
 # )
+
 
 
 class Query(BaseModel):
