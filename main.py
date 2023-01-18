@@ -31,6 +31,7 @@ from starlette.responses import StreamingResponse
 # import redis
 # from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.cors import CORSMiddleware
+from starlette.middleware import Middleware
 import logging
 from datetime import datetime
 import math
