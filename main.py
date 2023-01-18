@@ -29,7 +29,8 @@ from docxtpl import DocxTemplate
 from io import StringIO
 from starlette.responses import StreamingResponse
 # import redis
-from fastapi.middleware.cors import CORSMiddleware
+# from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.cors import CORSMiddleware
 import logging
 from datetime import datetime
 import math
