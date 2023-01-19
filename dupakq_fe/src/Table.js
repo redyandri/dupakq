@@ -28,7 +28,8 @@ function Table({ data, q, setGraph, setGraphLoading }) {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
-          "Content-type": "application/json"
+          "Content-type": "application/json",
+          "Access-Control-Allow-Origin": "*"
         },
         body: JSON.stringify({
           "q": activity
@@ -61,7 +62,8 @@ function Table({ data, q, setGraph, setGraphLoading }) {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
-        "Content-type": "application/json"
+        "Content-type": "application/json",
+        "Access-Control-Allow-Origin": "*"
       },
       // credentials: "include",
       body: JSON.stringify({

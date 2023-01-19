@@ -65,7 +65,8 @@ function App() {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
-        "Content-type": "application/json"
+        "Content-type": "application/json",
+        "Access-Control-Allow-Origin": "*"
       },
       // credentials: "include",
       body: JSON.stringify({
@@ -116,7 +117,8 @@ function App() {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
-        "Content-type": "application/json"
+        "Content-type": "application/json",
+        "Access-Control-Allow-Origin": "*"
       },
       // credentials: "include",
       body: JSON.stringify({
