@@ -33,9 +33,9 @@ from docxtpl import DocxTemplate
 from io import StringIO
 from starlette.responses import StreamingResponse
 # import redis
-# from fastapi.middleware.cors import CORSMiddleware
-from starlette.middleware.cors import CORSMiddleware
-from starlette.middleware import Middleware
+from fastapi.middleware.cors import CORSMiddleware
+# from starlette.middleware.cors import CORSMiddleware
+# from starlette.middleware import Middleware
 import logging
 from datetime import datetime
 import math
@@ -45,25 +45,45 @@ from decouple import config
 import colorsys
 
 app = FastAPI()
+origins = ["http://localhost",
+"http://10.242.184.93",
+"http://localhost:3000",
+"http://10.242.184.93:3000"
+"http://localhost/",
+"http://10.242.184.93/",
+"http://localhost:3000/",
+"http://10.242.184.93:3000/"]
 
-# Handle CORS
-class CORSHandler(APIRoute):
-    def get_route_handler(self) -> Callable:
-        original_route_handler = super().get_route_handler()
 
-        async def preflight_handler(request: Request) -> Response:
-            if request.method == 'OPTIONS':
-                response = Response()
-                response.headers['Access-Control-Allow-Origin'] = '*'
-                response.headers['Access-Control-Allow-Methods'] = 'POST, GET, DELETE, OPTIONS'
-                response.headers['Access-Control-Allow-Headers'] = 'Authorization, Content-Type'
-            else:
-                response = await original_route_handler(request)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
-        return preflight_handler
 
-router = APIRouter(route_class=CORSHandler)
-app.include_router(router)
+# app = FastAPI()
+
+# # Handle CORS
+# class CORSHandler(APIRoute):
+#     def get_route_handler(self) -> Callable:
+#         original_route_handler = super().get_route_handler()
+
+#         async def preflight_handler(request: Request) -> Response:
+#             if request.method == 'OPTIONS':
+#                 response = Response()
+#                 response.headers['Access-Control-Allow-Origin'] = '*'
+#                 response.headers['Access-Control-Allow-Methods'] = 'POST, GET, DELETE, OPTIONS'
+#                 response.headers['Access-Control-Allow-Headers'] = 'Authorization, Content-Type'
+#             else:
+#                 response = await original_route_handler(request)
+
+#         return preflight_handler
+
+# router = APIRouter(route_class=CORSHandler)
+# app.include_router(router)
 
 
 tagger = CRFTagger()
@@ -286,30 +306,17 @@ def ge_activity_code(txt):
 EMPTY_STR = "empty"
 EMPTY_TH = 0.99999
 
-# app = FastAPI()
-# origins = ["http://localhost",
-# "http://10.242.184.93",
-# "http://localhost:3000",
-# "http://10.242.184.93:3000"
-# "http://localhost/",
-# "http://10.242.184.93/",
-# "http://localhost:3000/",
-# "http://10.242.184.93:3000/"]
 
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=origins,
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"]
-# )
 
 
 
 class Query(BaseModel):
     q: str
 
+headers={'Access-Control-Allow-Origin': '*',
+'Access-Control-Allow-Methods': 'POST, GET, DELETE, OPTIONS',
+'Access-Control-Allow-Headers': 'Authorization, Content-Type'
+}
 
 @app.post("/test/")
 async def test(request: Request):
@@ -410,7 +417,7 @@ async def search(request: Request):
                 skipped_idx_queue.put(skipped_idx)
                 skipped_distance_queue.put(skipped_d)
     json_compatible_item_data = jsonable_encoder(result)
-    return JSONResponse(content=json_compatible_item_data)
+    return JSONResponse(content=json_compatible_item_data,headers=headers)
 
 
 @app.post("/search2/")
@@ -566,7 +573,7 @@ async def search2(request: Request):
     result2 = {"results": arr}
     json_compatible_item_data = jsonable_encoder(result2)
     # json_compatible_item_data = jsonable_encoder(final)
-    return JSONResponse(content=json_compatible_item_data)
+    return JSONResponse(content=json_compatible_item_data,headers=headers)
 
 
 @app.post("/download/", response_description='docx')
@@ -615,10 +622,10 @@ async def download(request: Request):
         # Reset the buffer's file-pointer to the beginning of the file
         file_stream.seek(0)
         doc_title = doc_title.replace(" ", "_")+".docx"
-        headers = {
+        thisheaders = {
             'Content-Disposition': "'attachment; filename="+doc_title
         }
-        return StreamingResponse(file_stream, headers=headers)
+        return StreamingResponse(file_stream, headers=thisheaders)
 
 
 uri = "bolt://"+config('NEO4J_HOST')+":"+config('NEO4J_PORT')
@@ -736,7 +743,7 @@ async def query_graph(request: Request):
                     arr.append(tmp)
         result = {"results": arr}
         json_compatible_item_data = jsonable_encoder(result)
-        return JSONResponse(content=json_compatible_item_data)
+        return JSONResponse(content=json_compatible_item_data,headers=headers)
 
 def rgb_to_hex(rgb):
   r,g,b=rgb
@@ -783,7 +790,7 @@ async def query_graph2(request: Request):
                 arr={'nodes':nodes,'edges':edges}
         result = {"results": arr}
         json_compatible_item_data = jsonable_encoder(result)
-        return JSONResponse(content=json_compatible_item_data)
+        return JSONResponse(content=json_compatible_item_data,headers=headers)
 
 
 @app.post("/get_dupak_by_index/")
@@ -817,7 +824,7 @@ async def get_dupak_by_index(request: Request):
             pass
     result2 = {"results": [tmp]}
     json_compatible_item_data = jsonable_encoder(result2)
-    return JSONResponse(content=json_compatible_item_data)
+    return JSONResponse(content=json_compatible_item_data,headers=headers)
 
 
 @app.post("/get_dupak_by_indexes/")
@@ -866,7 +873,7 @@ async def get_dupak_by_indexes(request: Request):
 
     result2 = {"results": arr}
     json_compatible_item_data = jsonable_encoder(result2)
-    return JSONResponse(content=json_compatible_item_data)
+    return JSONResponse(content=json_compatible_item_data,headers=headers)
 
 
 
