@@ -565,3 +565,689 @@ INFO: Accepting connections at http://localhost:80.
 [2022-12-19 10:11:17 +0700] [30233] [ERROR] Invalid address: ('10.242.184.93', 8000)
 [2022-12-19 10:11:17 +0700] [30233] [ERROR] Retrying in 1 second.
 [2022-12-19 10:11:18 +0700] [30233] [ERROR] Can't connect to ('10.242.184.93', 8000)
+[2023-03-07 09:24:50 +0700] [58933] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 09:24:50 +0700] [58933] [INFO] Listening at: http://0.0.0.0:443 (58933)
+[2023-03-07 09:24:50 +0700] [58933] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 09:24:50 +0700] [58962] [INFO] Booting worker with pid: 58962
+[2023-03-07 09:24:50 +0700] [58963] [INFO] Booting worker with pid: 58963
+[2023-03-07 09:24:50 +0700] [58964] [INFO] Booting worker with pid: 58964
+[2023-03-07 09:24:50 +0700] [58965] [INFO] Booting worker with pid: 58965
+[2023-03-07 09:25:05 +0700] [58964] [INFO] Started server process [58964]
+[2023-03-07 09:25:05 +0700] [58964] [INFO] Waiting for application startup.
+[2023-03-07 09:25:05 +0700] [58964] [INFO] Application startup complete.
+[2023-03-07 09:25:05 +0700] [58965] [INFO] Started server process [58965]
+[2023-03-07 09:25:05 +0700] [58965] [INFO] Waiting for application startup.
+[2023-03-07 09:25:05 +0700] [58965] [INFO] Application startup complete.
+[2023-03-07 09:25:05 +0700] [58963] [INFO] Started server process [58963]
+[2023-03-07 09:25:05 +0700] [58963] [INFO] Waiting for application startup.
+[2023-03-07 09:25:05 +0700] [58963] [INFO] Application startup complete.
+[2023-03-07 09:25:05 +0700] [58962] [INFO] Started server process [58962]
+[2023-03-07 09:25:05 +0700] [58962] [INFO] Waiting for application startup.
+[2023-03-07 09:25:05 +0700] [58962] [INFO] Application startup complete.
+[2023-03-07 09:34:31 +0700] [71467] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 09:34:31 +0700] [71467] [INFO] Listening at: http://0.0.0.0:443 (71467)
+[2023-03-07 09:34:31 +0700] [71467] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 09:34:31 +0700] [71481] [INFO] Booting worker with pid: 71481
+[2023-03-07 09:34:31 +0700] [71482] [INFO] Booting worker with pid: 71482
+[2023-03-07 09:34:31 +0700] [71484] [INFO] Booting worker with pid: 71484
+[2023-03-07 09:34:31 +0700] [71485] [INFO] Booting worker with pid: 71485
+[2023-03-07 09:34:37 +0700] [71481] [INFO] Started server process [71481]
+[2023-03-07 09:34:37 +0700] [71481] [INFO] Waiting for application startup.
+[2023-03-07 09:34:37 +0700] [71481] [INFO] Application startup complete.
+[2023-03-07 09:34:37 +0700] [71482] [INFO] Started server process [71482]
+[2023-03-07 09:34:37 +0700] [71482] [INFO] Waiting for application startup.
+[2023-03-07 09:34:37 +0700] [71482] [INFO] Application startup complete.
+[2023-03-07 09:34:37 +0700] [71485] [INFO] Started server process [71485]
+[2023-03-07 09:34:37 +0700] [71485] [INFO] Waiting for application startup.
+[2023-03-07 09:34:37 +0700] [71485] [INFO] Application startup complete.
+[2023-03-07 09:34:37 +0700] [71484] [INFO] Started server process [71484]
+[2023-03-07 09:34:37 +0700] [71484] [INFO] Waiting for application startup.
+[2023-03-07 09:34:37 +0700] [71484] [INFO] Application startup complete.
+[2023-03-07 09:54:58 +0700] [96160] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 09:54:58 +0700] [96160] [INFO] Listening at: http://10.242.77.105:443 (96160)
+[2023-03-07 09:54:58 +0700] [96160] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 09:54:58 +0700] [96177] [INFO] Booting worker with pid: 96177
+[2023-03-07 09:54:58 +0700] [96181] [INFO] Booting worker with pid: 96181
+[2023-03-07 09:54:58 +0700] [96193] [INFO] Booting worker with pid: 96193
+[2023-03-07 09:54:58 +0700] [96197] [INFO] Booting worker with pid: 96197
+[2023-03-07 09:55:03 +0700] [96181] [INFO] Started server process [96181]
+[2023-03-07 09:55:03 +0700] [96181] [INFO] Waiting for application startup.
+[2023-03-07 09:55:03 +0700] [96181] [INFO] Application startup complete.
+[2023-03-07 09:55:03 +0700] [96177] [INFO] Started server process [96177]
+[2023-03-07 09:55:03 +0700] [96177] [INFO] Waiting for application startup.
+[2023-03-07 09:55:03 +0700] [96177] [INFO] Application startup complete.
+[2023-03-07 09:55:03 +0700] [96197] [INFO] Started server process [96197]
+[2023-03-07 09:55:03 +0700] [96197] [INFO] Waiting for application startup.
+[2023-03-07 09:55:03 +0700] [96197] [INFO] Application startup complete.
+[2023-03-07 09:55:04 +0700] [96193] [INFO] Started server process [96193]
+[2023-03-07 09:55:04 +0700] [96193] [INFO] Waiting for application startup.
+[2023-03-07 09:55:04 +0700] [96193] [INFO] Application startup complete.
+[2023-03-07 09:55:13 +0700] [96181] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 769, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 09:55:16 +0700] [96193] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 769, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 09:56:53 +0700] [100640] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 09:56:53 +0700] [100640] [INFO] Listening at: http://10.242.77.105:443 (100640)
+[2023-03-07 09:56:53 +0700] [100640] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 09:56:53 +0700] [100660] [INFO] Booting worker with pid: 100660
+[2023-03-07 09:56:53 +0700] [100661] [INFO] Booting worker with pid: 100661
+[2023-03-07 09:56:53 +0700] [100662] [INFO] Booting worker with pid: 100662
+[2023-03-07 09:56:53 +0700] [100663] [INFO] Booting worker with pid: 100663
+[2023-03-07 09:56:57 +0700] [100660] [INFO] Started server process [100660]
+[2023-03-07 09:56:57 +0700] [100660] [INFO] Waiting for application startup.
+[2023-03-07 09:56:57 +0700] [100660] [INFO] Application startup complete.
+[2023-03-07 09:56:58 +0700] [100661] [INFO] Started server process [100661]
+[2023-03-07 09:56:58 +0700] [100661] [INFO] Waiting for application startup.
+[2023-03-07 09:56:58 +0700] [100661] [INFO] Application startup complete.
+[2023-03-07 09:56:58 +0700] [100663] [INFO] Started server process [100663]
+[2023-03-07 09:56:58 +0700] [100663] [INFO] Waiting for application startup.
+[2023-03-07 09:56:58 +0700] [100663] [INFO] Application startup complete.
+[2023-03-07 09:56:58 +0700] [100662] [INFO] Started server process [100662]
+[2023-03-07 09:56:58 +0700] [100662] [INFO] Waiting for application startup.
+[2023-03-07 09:56:58 +0700] [100662] [INFO] Application startup complete.
+[2023-03-07 10:54:14 +0700] [32891] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 10:54:14 +0700] [32891] [INFO] Listening at: http://10.242.77.105:443 (32891)
+[2023-03-07 10:54:14 +0700] [32891] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 10:54:14 +0700] [32907] [INFO] Booting worker with pid: 32907
+[2023-03-07 10:54:14 +0700] [32908] [INFO] Booting worker with pid: 32908
+[2023-03-07 10:54:14 +0700] [32909] [INFO] Booting worker with pid: 32909
+[2023-03-07 10:54:15 +0700] [32911] [INFO] Booting worker with pid: 32911
+[2023-03-07 10:54:20 +0700] [32909] [INFO] Started server process [32909]
+[2023-03-07 10:54:20 +0700] [32909] [INFO] Waiting for application startup.
+[2023-03-07 10:54:20 +0700] [32909] [INFO] Application startup complete.
+[2023-03-07 10:54:20 +0700] [32907] [INFO] Started server process [32907]
+[2023-03-07 10:54:20 +0700] [32907] [INFO] Waiting for application startup.
+[2023-03-07 10:54:20 +0700] [32907] [INFO] Application startup complete.
+[2023-03-07 10:54:20 +0700] [32911] [INFO] Started server process [32911]
+[2023-03-07 10:54:20 +0700] [32911] [INFO] Waiting for application startup.
+[2023-03-07 10:54:20 +0700] [32911] [INFO] Application startup complete.
+[2023-03-07 10:54:20 +0700] [32908] [INFO] Started server process [32908]
+[2023-03-07 10:54:20 +0700] [32908] [INFO] Waiting for application startup.
+[2023-03-07 10:54:20 +0700] [32908] [INFO] Application startup complete.
+[2023-03-07 10:55:03 +0700] [32908] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 762, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 11:11:56 +0700] [54020] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 11:11:56 +0700] [54020] [INFO] Listening at: http://10.242.77.105:443 (54020)
+[2023-03-07 11:11:56 +0700] [54020] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 11:11:56 +0700] [54046] [INFO] Booting worker with pid: 54046
+[2023-03-07 11:11:56 +0700] [54047] [INFO] Booting worker with pid: 54047
+[2023-03-07 11:11:57 +0700] [54048] [INFO] Booting worker with pid: 54048
+[2023-03-07 11:11:57 +0700] [54050] [INFO] Booting worker with pid: 54050
+[2023-03-07 11:12:01 +0700] [54046] [INFO] Started server process [54046]
+[2023-03-07 11:12:01 +0700] [54046] [INFO] Waiting for application startup.
+[2023-03-07 11:12:01 +0700] [54046] [INFO] Application startup complete.
+[2023-03-07 11:12:01 +0700] [54047] [INFO] Started server process [54047]
+[2023-03-07 11:12:01 +0700] [54047] [INFO] Waiting for application startup.
+[2023-03-07 11:12:01 +0700] [54047] [INFO] Application startup complete.
+[2023-03-07 11:12:02 +0700] [54050] [INFO] Started server process [54050]
+[2023-03-07 11:12:02 +0700] [54050] [INFO] Waiting for application startup.
+[2023-03-07 11:12:02 +0700] [54050] [INFO] Application startup complete.
+[2023-03-07 11:12:02 +0700] [54048] [INFO] Started server process [54048]
+[2023-03-07 11:12:02 +0700] [54048] [INFO] Waiting for application startup.
+[2023-03-07 11:12:02 +0700] [54048] [INFO] Application startup complete.
+[2023-03-07 11:12:57 +0700] [54046] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 762, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 11:13:02 +0700] [54048] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 762, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 11:13:04 +0700] [54050] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 762, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 11:13:05 +0700] [54048] [ERROR] Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 147, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 284, in connect
+    s = BoltSocket._connect(resolved_address, timeout, keep_alive)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 164, in _connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/applications.py", line 270, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 706, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 235, in app
+    raw_response = await run_endpoint_function(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/fastapi/routing.py", line 161, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/pusintek/project/dupakq/main.py", line 762, in query_graph2
+    result = session.run("match p=(m)-[r]-(n) where toLower(m.label) contains '"+str(x[0]).lower()+"' \
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 204, in run
+    self._connect(self._config.default_access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/simple.py", line 108, in _connect
+    super()._connect(access_mode)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/work/__init__.py", line 82, in _connect
+    self._connection = self._pool.acquire(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 926, in acquire
+    return self._acquire(self.address, deadline)
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 801, in _acquire
+    return connection_creator()
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 729, in connection_creator
+    connection = self.opener(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 907, in opener
+    return Bolt.open(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/__init__.py", line 327, in open
+    s, pool_config.protocol_version, handshake, data = BoltSocket.connect(
+  File "/home/pusintek/miniconda3/envs/py38/lib/python3.8/site-packages/neo4j/io/_socket.py", line 311, in connect
+    raise ServiceUnavailable(
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 10.242.77.105:7687 (resolved to ('10.242.77.105:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('10.242.77.105', 7687)) (reason [Errno 111] Connection refused)
+[2023-03-07 11:14:03 +0700] [57899] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 11:14:03 +0700] [57899] [INFO] Listening at: http://10.242.77.105:443 (57899)
+[2023-03-07 11:14:03 +0700] [57899] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 11:14:03 +0700] [57917] [INFO] Booting worker with pid: 57917
+[2023-03-07 11:14:03 +0700] [57918] [INFO] Booting worker with pid: 57918
+[2023-03-07 11:14:03 +0700] [57919] [INFO] Booting worker with pid: 57919
+[2023-03-07 11:14:03 +0700] [57920] [INFO] Booting worker with pid: 57920
+[2023-03-07 11:14:08 +0700] [57918] [INFO] Started server process [57918]
+[2023-03-07 11:14:08 +0700] [57918] [INFO] Waiting for application startup.
+[2023-03-07 11:14:08 +0700] [57918] [INFO] Application startup complete.
+[2023-03-07 11:14:08 +0700] [57919] [INFO] Started server process [57919]
+[2023-03-07 11:14:08 +0700] [57919] [INFO] Waiting for application startup.
+[2023-03-07 11:14:08 +0700] [57919] [INFO] Application startup complete.
+[2023-03-07 11:14:08 +0700] [57920] [INFO] Started server process [57920]
+[2023-03-07 11:14:08 +0700] [57920] [INFO] Waiting for application startup.
+[2023-03-07 11:14:08 +0700] [57920] [INFO] Application startup complete.
+[2023-03-07 11:14:08 +0700] [57917] [INFO] Started server process [57917]
+[2023-03-07 11:14:08 +0700] [57917] [INFO] Waiting for application startup.
+[2023-03-07 11:14:08 +0700] [57917] [INFO] Application startup complete.
+[2023-03-07 11:14:41 +0700] [60702] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 11:14:41 +0700] [60702] [INFO] Listening at: http://10.242.77.105:443 (60702)
+[2023-03-07 11:14:41 +0700] [60702] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 11:14:41 +0700] [60717] [INFO] Booting worker with pid: 60717
+[2023-03-07 11:14:41 +0700] [60718] [INFO] Booting worker with pid: 60718
+[2023-03-07 11:14:41 +0700] [60719] [INFO] Booting worker with pid: 60719
+[2023-03-07 11:14:41 +0700] [60720] [INFO] Booting worker with pid: 60720
+[2023-03-07 11:14:46 +0700] [60717] [INFO] Started server process [60717]
+[2023-03-07 11:14:46 +0700] [60717] [INFO] Waiting for application startup.
+[2023-03-07 11:14:46 +0700] [60717] [INFO] Application startup complete.
+[2023-03-07 11:14:46 +0700] [60720] [INFO] Started server process [60720]
+[2023-03-07 11:14:46 +0700] [60720] [INFO] Waiting for application startup.
+[2023-03-07 11:14:46 +0700] [60720] [INFO] Application startup complete.
+[2023-03-07 11:14:46 +0700] [60719] [INFO] Started server process [60719]
+[2023-03-07 11:14:46 +0700] [60719] [INFO] Waiting for application startup.
+[2023-03-07 11:14:46 +0700] [60719] [INFO] Application startup complete.
+[2023-03-07 11:14:46 +0700] [60718] [INFO] Started server process [60718]
+[2023-03-07 11:14:46 +0700] [60718] [INFO] Waiting for application startup.
+[2023-03-07 11:14:46 +0700] [60718] [INFO] Application startup complete.
+[2023-03-07 11:16:40 +0700] [65095] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 11:16:40 +0700] [65095] [INFO] Listening at: http://10.242.77.105:443 (65095)
+[2023-03-07 11:16:40 +0700] [65095] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 11:16:40 +0700] [65121] [INFO] Booting worker with pid: 65121
+[2023-03-07 11:16:40 +0700] [65122] [INFO] Booting worker with pid: 65122
+[2023-03-07 11:16:40 +0700] [65123] [INFO] Booting worker with pid: 65123
+[2023-03-07 11:16:41 +0700] [65124] [INFO] Booting worker with pid: 65124
+[2023-03-07 11:16:45 +0700] [65122] [INFO] Started server process [65122]
+[2023-03-07 11:16:45 +0700] [65122] [INFO] Waiting for application startup.
+[2023-03-07 11:16:45 +0700] [65122] [INFO] Application startup complete.
+[2023-03-07 11:16:45 +0700] [65123] [INFO] Started server process [65123]
+[2023-03-07 11:16:45 +0700] [65123] [INFO] Waiting for application startup.
+[2023-03-07 11:16:45 +0700] [65123] [INFO] Application startup complete.
+[2023-03-07 11:16:45 +0700] [65121] [INFO] Started server process [65121]
+[2023-03-07 11:16:45 +0700] [65121] [INFO] Waiting for application startup.
+[2023-03-07 11:16:45 +0700] [65121] [INFO] Application startup complete.
+[2023-03-07 11:16:45 +0700] [65124] [INFO] Started server process [65124]
+[2023-03-07 11:16:45 +0700] [65124] [INFO] Waiting for application startup.
+[2023-03-07 11:16:45 +0700] [65124] [INFO] Application startup complete.
+[2023-03-07 11:22:09 +0700] [73234] [INFO] Starting gunicorn 20.1.0
+[2023-03-07 11:22:09 +0700] [73234] [INFO] Listening at: http://10.242.77.105:443 (73234)
+[2023-03-07 11:22:09 +0700] [73234] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2023-03-07 11:22:09 +0700] [73249] [INFO] Booting worker with pid: 73249
+[2023-03-07 11:22:09 +0700] [73250] [INFO] Booting worker with pid: 73250
+[2023-03-07 11:22:09 +0700] [73251] [INFO] Booting worker with pid: 73251
+[2023-03-07 11:22:09 +0700] [73252] [INFO] Booting worker with pid: 73252
+[2023-03-07 11:22:14 +0700] [73250] [INFO] Started server process [73250]
+[2023-03-07 11:22:14 +0700] [73250] [INFO] Waiting for application startup.
+[2023-03-07 11:22:14 +0700] [73250] [INFO] Application startup complete.
+[2023-03-07 11:22:15 +0700] [73249] [INFO] Started server process [73249]
+[2023-03-07 11:22:15 +0700] [73249] [INFO] Waiting for application startup.
+[2023-03-07 11:22:15 +0700] [73249] [INFO] Application startup complete.
+[2023-03-07 11:22:15 +0700] [73251] [INFO] Started server process [73251]
+[2023-03-07 11:22:15 +0700] [73251] [INFO] Waiting for application startup.
+[2023-03-07 11:22:15 +0700] [73251] [INFO] Application startup complete.
+[2023-03-07 11:22:15 +0700] [73252] [INFO] Started server process [73252]
+[2023-03-07 11:22:15 +0700] [73252] [INFO] Waiting for application startup.
+[2023-03-07 11:22:15 +0700] [73252] [INFO] Application startup complete.

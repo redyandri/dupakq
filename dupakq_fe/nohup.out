@@ -267,3 +267,105 @@ Error: Failed to serve: Error: listen EACCES: permission denied 0.0.0.0:80
     at processTicksAndRejections (node:internal/process/task_queues:83:21)
  UPDATE  The latest version of `serve` is 14.1.2.
 INFO: Accepting connections at http://localhost:80.
+ INFO  Accepting connections at http://localhost:80
+ INFO  Accepting connections at http://localhost:80
+ INFO  Accepting connections at http://localhost:80
+ INFO  Accepting connections at http://localhost:80
+ HTTP  3/7/2023 10:04:00 AM 10.200.20.139 GET /
+ HTTP  3/7/2023 10:04:00 AM 10.200.20.139 Returned 304 in 102 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/css/main.0dd70873.chunk.css
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 11 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/js/3.6d30ce3e.chunk.js
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/js/main.60fbf1ff.chunk.js
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 11 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 28 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/media/apple3.50f9e984.png
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 7 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/js/0.58d023b3.chunk.js
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/js/6.56484fe7.chunk.js
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 11 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 10 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/js/4.6e54ea48.chunk.js
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 GET /static/js/5.33c5deb9.chunk.js
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 7 ms
+ HTTP  3/7/2023 10:04:01 AM 10.200.20.139 Returned 304 in 17 ms
+ WARN  Checking for updates failed:
+ ERROR  Cannot read properties of undefined (reading 'code')
+ INFO  Accepting connections at http://localhost:80
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 GET /
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 Returned 304 in 74 ms
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 GET /static/css/main.0dd70873.chunk.css
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 GET /static/js/main.60fbf1ff.chunk.js
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 GET /static/js/3.6d30ce3e.chunk.js
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 Returned 304 in 15 ms
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 Returned 304 in 12 ms
+ HTTP  3/7/2023 10:58:52 AM 10.200.20.139 Returned 304 in 20 ms
+ HTTP  3/7/2023 10:58:53 AM 10.200.20.139 GET /static/media/apple3.50f9e984.png
+ HTTP  3/7/2023 10:58:53 AM 10.200.20.139 Returned 304 in 9 ms
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 GET /static/js/0.58d023b3.chunk.js
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 GET /static/js/6.56484fe7.chunk.js
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 Returned 304 in 9 ms
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 Returned 304 in 14 ms
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 GET /static/js/4.6e54ea48.chunk.js
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 GET /static/js/5.33c5deb9.chunk.js
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 Returned 304 in 8 ms
+ HTTP  3/7/2023 10:58:54 AM 10.200.20.139 Returned 304 in 22 ms
+ INFO  Accepting connections at http://localhost:80
+ INFO  Accepting connections at http://localhost:80
+ INFO  Accepting connections at http://localhost:80
+ INFO  Accepting connections at http://localhost:80
+ HTTP  3/7/2023 11:19:37 AM 10.200.20.139 GET /
+ HTTP  3/7/2023 11:19:37 AM 10.200.20.139 Returned 304 in 38 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/css/main.0dd70873.chunk.css
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 8 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/js/3.6d30ce3e.chunk.js
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/js/main.60fbf1ff.chunk.js
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 4 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 10 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/media/apple3.50f9e984.png
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 8 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/js/0.58d023b3.chunk.js
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 6 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/js/6.56484fe7.chunk.js
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/js/4.6e54ea48.chunk.js
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 5 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 GET /static/js/5.33c5deb9.chunk.js
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 4 ms
+ HTTP  3/7/2023 11:19:38 AM 10.200.20.139 Returned 304 in 13 ms
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 GET /
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 Returned 304 in 3 ms
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 GET /static/css/main.0dd70873.chunk.css
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 Returned 304 in 5 ms
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 GET /static/js/3.6d30ce3e.chunk.js
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 Returned 304 in 4 ms
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 GET /static/js/main.60fbf1ff.chunk.js
+ HTTP  3/7/2023 11:19:58 AM 10.200.20.139 Returned 304 in 4 ms
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 GET /static/media/apple3.50f9e984.png
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 Returned 304 in 4 ms
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 GET /static/js/0.58d023b3.chunk.js
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 GET /static/js/6.56484fe7.chunk.js
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 Returned 304 in 5 ms
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 Returned 304 in 6 ms
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 GET /static/js/4.6e54ea48.chunk.js
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 Returned 304 in 3 ms
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 GET /static/js/5.33c5deb9.chunk.js
+ HTTP  3/7/2023 11:19:59 AM 10.200.20.139 Returned 304 in 3 ms
+ INFO  Accepting connections at http://localhost:80
+ HTTP  3/7/2023 11:23:36 AM 10.200.20.139 GET /
+ HTTP  3/7/2023 11:23:36 AM 10.200.20.139 Returned 304 in 56 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/css/main.0dd70873.chunk.css
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 8 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/js/3.6d30ce3e.chunk.js
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/js/main.60fbf1ff.chunk.js
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 9 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 28 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/media/apple3.50f9e984.png
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 8 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/js/0.58d023b3.chunk.js
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/js/6.56484fe7.chunk.js
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/js/4.6e54ea48.chunk.js
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 16 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 20 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 GET /static/js/5.33c5deb9.chunk.js
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 8 ms
+ HTTP  3/7/2023 11:23:37 AM 10.200.20.139 Returned 304 in 29 ms

@@ -45,14 +45,7 @@ from decouple import config
 import colorsys
 
 app = FastAPI()
-origins = ["http://localhost",
-"http://10.242.184.93",
-"http://localhost:3000",
-"http://10.242.184.93:3000"
-"http://localhost/",
-"http://10.242.184.93/",
-"http://localhost:3000/",
-"http://10.242.184.93:3000/"]
+origins = ["*"]
 
 
 app.add_middleware(
@@ -314,8 +307,8 @@ class Query(BaseModel):
     q: str
 
 headers={'Access-Control-Allow-Origin': '*',
-'Access-Control-Allow-Methods': 'POST, GET, DELETE, OPTIONS',
-'Access-Control-Allow-Headers': 'Authorization, Content-Type'
+'Access-Control-Allow-Methods': '*',
+'Access-Control-Allow-Headers': '*'
 }
 
 @app.post("/test/")
